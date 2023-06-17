@@ -328,14 +328,14 @@ header {
 }
 
 .Mainly-absolute-content-about-statistics p:first-child:before {
-    content: url('../img/Mainly block/Green-circle.svg');
+    content: url('../img/Mainly-block/Green-circle.svg');
     display: inline-block;
     top: 0;
     margin-right: 9px;
 }
 
 .Mainly-absolute-content-about-statistics p:last-child::before {
-    content: url('../img/Mainly block/Burgundy-circle.svg');
+    content: url('../img/Mainly-block/Burgundy-circle.svg');
     display: inline-block;
     top: 0;
     margin-right: 9px;
@@ -441,7 +441,7 @@ header {
 }
 
 .Mainly-absolute-left-Share p::before {
-    content: url('../img/Mainly block/left side/Shape.svg');
+    content: url('../img/Mainly-block/left side/Shape.svg');
     margin-right: 6.5px;
 }
 
@@ -660,7 +660,7 @@ header {
 }
 
 .becoming-trusted-list li::before {
-    content: url('../img/becoming trusted block/green-Ellipse.svg');
+    content: url('../img/becoming-trusted-block/green-Ellipse.svg');
     top: 0px;
     padding-right: 18.26px;
 }
@@ -685,7 +685,7 @@ header {
 }
 
 .becoming-trusted-absolute-cost-follower::before {
-    content: url('../img/becoming trusted block/underVectorCost.svg');
+    content: url('../img/becoming-trusted-block/underVectorCost.svg');
     position: absolute;
     width: 172.65px;
     transform: rotate(3.45deg);
@@ -734,7 +734,7 @@ header {
 }
 
 .div-Bloomberg::before {
-    content: url('../img/about us/Arrow 8.svg');
+    content: url('../img/about-us/Arrow-8.svg');
     position: absolute;
     top: 35px;
     left: 77px;
@@ -773,14 +773,14 @@ header {
 }
 
 .media-about-us-conteiner::after {
-    content: url('../img/about us/“.svg');
+    content: url('../img/about-us/“.svg');
     position: absolute;
     bottom: -12px;
     right: -98px;
 }
 
 .media-about-us-conteiner::before {
-    content: url('../img/about us/dartbefor.svg');
+    content: url('../img/about-us/dartbefor.svg');
     position: absolute;
     top: -50px;
     left: -107px;
