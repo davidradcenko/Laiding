@@ -1,35 +1,3 @@
-// const buttons = document.querySelectorAll('.accordion-button');
-
-// buttons.forEach(button => {
-//   button.addEventListener('click', () => {
-//     const item = button.parentNode;
-//     const isActive = item.classList.contains('active');
-
-//     closeAllAccordions();
-
-//     if (!isActive) {
-//       item.classList.add('active');
-//       button.querySelector('.accordion-icon').textContent = '-';
-//     } else {
-//       button.querySelector('.accordion-icon').textContent = '+';
-//     }
-//   });
-// });
-
-// function closeAllAccordions() {
-//   const items = document.querySelectorAll('.item');
-//   items.forEach(item => {
-//     item.classList.remove('active');
-//     item.querySelector('.accordion-icon').textContent = '+';
-//   });
-// }
-
-// document.querySelector('.item:first-child').classList.add('active');
-// document.querySelector('.item:first-child .accordion-icon').textContent = '-';
-
-
-// 
-
 const buttons = document.querySelectorAll('.accordion-button');
 const mainImage = document.getElementById('main-image');
 
@@ -44,9 +12,6 @@ buttons.forEach((button, index) => {
             button.querySelector('.accordion-icon').textContent = '-';
             updateMainImage(index);
         } else {
-            // item.classList.remove('active');
-            // button.querySelector('.accordion-icon').textContent = '+';
-            // resetMainImage();
         }
     });
 });
@@ -74,22 +39,22 @@ function updateMainImage(index) {
             mainImage.alt = 'Изображение 3';
             break;
         case 3:
-            mainImage.src = './img/Wallmer/Photos-Accordion/window.png';
+            mainImage.src = './img/Wallmer/Photos-Accordion/profileImage.png';
             mainImage.alt = 'Изображение 4';
             break;
-            // Добавьте остальные варианты для других аккордеонов
+        case 4:
+                mainImage.src = './img/Wallmer/Photos-Accordion/window.png';
+                mainImage.alt = 'Изображение 4';
+                break;
         default:
             break;
     }
 }
 function resetMainImage() {
-    
-    mainImage.src = './img/Wallmer/Photos-Accordion/window.png'; // Вернуть изображение к исходному состоянию
-    mainImage.alt = 'Изображение'; // Вернуть альтернативный текст к исходному состоянию
 
-
+    mainImage.src = './img/Wallmer/Photos-Accordion/window.png'; 
+    mainImage.alt = 'Изображение'; 
 }
-
 document.querySelector('.item:first-child').classList.add('active');
 document.querySelector('.item:first-child .accordion-icon').textContent = '-';
 updateMainImage(0);
