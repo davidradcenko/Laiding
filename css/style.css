@@ -48,6 +48,14 @@
 }
 
 @font-face {
+    font-family: "SF Pro-600";
+    src: url('../fonts/SF Pro/600/SF-Pro-Text-Semibold.woff2') format('woff2'),
+        url('../fonts/SF Pro/600/SF-Pro-Text-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "SF Pro-700";
     src: url('../fonts/SF Pro/700/SF-Pro-Text-Bold.woff2') format('woff2'),
         url('../fonts/SF Pro/700/SF-Pro-Text-Bold.woff') format('woff');
@@ -108,6 +116,8 @@ a {
 button {
     border: none;
     font-size: 16px;
+    cursor: pointer;
+    font-family: "SF Pro Display", sans-serif;
 }
 
 button:active {
@@ -131,6 +141,7 @@ ul {
 .main-container {
     width: 1440px;
     margin: 0 auto;
+    /* border: 1px solid red; */
 }
 
 header {
@@ -609,7 +620,7 @@ header {
 .becoming-trusted-absolute-end img {
     position: absolute;
     top: -222px;
-    right: 0px;
+    right: -42px;
     z-index: -1;
 }
 
@@ -691,6 +702,7 @@ header {
     transform: rotate(3.45deg);
     top: 41px;
 }
+
 /* ===== media obout us start ===== */
 .media-about-us {
     padding-left: 158px;
@@ -717,12 +729,21 @@ header {
 .media-about-us-conteiner div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.Forbes {
+.div-Forbes {
     width: 207.13px;
     height: 52.03px;
+    background-image: url('../img/about-us/Forbes.png');
+    background-size: cover;
+    background-position: center;
 }
+
+.div-Forbes:hover {
+    background-image: url('../img/about-us/Forbes-hover.png');
+}
+
 
 .Bloomberg {
     width: 256.89px;
@@ -730,7 +751,16 @@ header {
 }
 
 .div-Bloomberg {
+    background-image: url('../img/about-us/Bloomberg.png');
+    background-size: cover;
+    background-position: center;
+    width: 256.89px;
+    height: 51.85px;
     position: relative;
+}
+
+.div-Bloomberg:hover {
+    background-image: url('../img/about-us/Bloomberg-hover.png');
 }
 
 .div-Bloomberg::before {
@@ -741,31 +771,58 @@ header {
 }
 
 .div-COINTELEGRAPH {
-    width: 269px;
-    height: 70px;
+    background-image: url('../img/about-us/COINTELEGRAPH.png');
+    background-position: center;
+    background-position-x: -37px;
+    width: 270px;
+    height: 69.69px;
     overflow: hidden;
 }
 
-.COINTELEGRAPH {
-    width: calc(100% + 75px);
-    height: calc(100% + 160px);
-    transform: translate(-37px, -80px);
+.div-COINTELEGRAPH:hover {
+    background-image: url('../img/about-us/COINTELEGRAPH-hover.png');
 }
 
 .div-Investing {
+    background-image: url('../img/about-us/Investing.png');
+    background-size: cover;
+    background-position: center;
     width: 289.73px;
     height: 46px;
 }
 
+.div-Investing:hover {
+    background-image: url('../img/about-us/Investing-hover.png');
+}
+
 .div-CoinDesk {
+    background-image: url('../img/about-us/CoinDesk.png');
+    background-size: cover;
+    background-position: center;
     width: 308.09px;
     height: 58.17px;
+}
+
+.div-CoinDesk:hover {
+    background-image: url('../img/about-us/CoinDesk-hover.png');
+}
+
+.div-CryptoDaily {
+    background-image: url('../img/about-us/CryptoDaily.png');
+    background-size: cover;
+    background-position: center;
+    width: 301px;
+    height: 104px;
+}
+
+.div-CryptoDaily:hover {
+    background-image: url('../img/about-us/CryptoDaily-hover.png');
 }
 
 .next-line {
     display: flex;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 
 .firs-line {
@@ -794,20 +851,17 @@ header {
 /* ====== Wallmer start ====== */
 .Wallmer {
     width: 100%;
-    padding-left: 69px;
+    padding-left: 41px;
     padding-right: 41px;
 
 }
 
 .Wallmer-title {
-
     margin-top: 139px;
 }
 
 .Wallmer-content-left {
     position: relative;
-    width: 552px;
-    height: 461px;
 }
 
 .Wallmer-content {
@@ -824,8 +878,8 @@ header {
 }
 
 .Wallmer-content-left-window {
-    border: 1px solid #544FFD;
-    border-radius: 16px;
+    border: 3px solid rgba(53, 113, 253, 0.1);
+    border-radius: 8px;
     margin-top: 48px;
     width: 552px;
     height: 461px;
@@ -834,7 +888,7 @@ header {
 .Wallmer-content-left-circles {
     position: absolute;
     top: -41px;
-    left: -94px;
+    left: -41px;
     z-index: -1;
 
     width: 683px;
@@ -843,20 +897,20 @@ header {
 
 .Vector2-Elleps {
     position: absolute;
-    top: -43px;
-    left: -92px;
+    top: -42px;
+    left: -41px;
 }
 
 .Vector1-Elleps {
     position: absolute;
-    bottom: -135px;
-    right: 102px;
+    bottom: -16px;
+    left: 385px;
 }
 
 .Wallmer-absolute-Buy-BTC {
     position: absolute;
-    top: 43px;
-    right: 135px;
+    top: 40px;
+    right: 142px;
     width: 117px;
     height: 48px;
     background: #162348;
@@ -870,8 +924,8 @@ header {
     color: var(--bg-button-blue);
     position: absolute;
     right: -14px;
-    bottom: -28px;
-    width: 117px;
+    bottom: 19px;
+    width: 147px;
     height: 48px;
     background: #162348;
     border: 1px solid var(--bg-button-blue);
@@ -891,12 +945,12 @@ header {
 
 .Wallmer-absolute-BTC {
     position: absolute;
-    top: 227px;
-    right: 246px;
+    top: 251px;
+    right: 255px;
     width: 111px;
     height: 50px;
     background: #191A2E;
-    border: 1px solid  var(--bg-button-blue);
+    border: 1px solid var(--bg-button-blue);
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     display: flex;
@@ -913,7 +967,7 @@ header {
     position: absolute;
     align-items: center;
     justify-content: space-between;
-    top: 372px;
+    top: 382px;
     right: 273px;
     background: #191A2E;
     border: 1px solid var(--bg-button-blue);
@@ -984,22 +1038,14 @@ header {
     width: 100%;
     background: none;
     border: none;
-    padding: 10px;
-    text-align: left;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 24px;
     color: var(--bg-white);
-    padding: 16px 30px 16px 24px;
+    padding: 16px 24px 16px 24px;
     font-size: 22px;
     line-height: 24px;
 }
 
-.accordion-icon {
-    display: inline-block;
-    margin-right: 5px;
-}
+
 
 .accordion-content {
     height: 128px;
@@ -1045,7 +1091,246 @@ header {
     flex-direction: column;
 }
 
+.Wallmer-wind-1,
+.Wallmer-wind-2,
+.Wallmer-wind-3,
+.Wallmer-wind-4 {
+    position: relative;
+    display: none;
+}
 
+.Wallmer-wind-2 {
+    margin-left: 25px;
+}
+
+.Wallmer-wind-1 img {
+    position: absolute;
+    border-radius: 8px;
+}
+
+.Wallmer-wind-1 .element1 {
+    top: 36px;
+}
+
+.Wallmer-wind-1 .element2 {
+    top: 10px;
+    right: -578px;
+}
+
+.Wallmer-wind-1 .element3 {
+    top: 185px;
+    right: -303px;
+}
+
+.classNone {
+    display: none;
+}
+
+.classBlock {
+    display: inline-block;
+}
+
+.Wallmer-wind-3 img {
+    position: absolute;
+}
+
+.Wallmer-wind-3 .element1 {
+    border: 3px solid rgba(53, 113, 253, 0.1);
+    border-radius: 8px;
+    left: 10px;
+    top: 36px;
+}
+
+.Wallmer-wind-3 .element2 {
+    width: 318px;
+    top: 118px;
+    left: 323px;
+}
+
+.Wallmer-wind-3 .element3 {
+    position: absolute;
+    top: 101px;
+    left: 0px;
+    display: flex;
+    padding: 12px 12px 5px 12px;
+    width: 183px;
+    height: 60px;
+    background: #242642;
+    border: 1px solid #3571FD;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Team {
+    font-family: "SF Pro-600", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5E5E5;
+}
+
+#email-img {
+    position: static;
+    width: 36px;
+    height: 36px;
+}
+
+#ring-img {
+    position: static;
+    width: 24px;
+    height: 24px;
+}
+
+.Wallmer-wind-3 .element3 p {
+    margin-left: 11px;
+}
+
+.notification {
+    font-family: "SF Pro-400", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6F6F76;
+}
+
+.Wallmer-wind-3 .element4 {
+    position: absolute;
+    top: 442px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 11px 11px 12px;
+    width: 219px;
+    height: 45px;
+    background: #242642;
+    border: 1px solid #3571FD;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Wallmer-wind-3 .element4 p {
+    font-family: "SF Pro-600", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5E5E5;
+}
+
+.testd {
+    position: absolute;
+    top: 103px;
+    left: -41px;
+    width: 42px;
+    height: 30px;
+    background-color: #3571FD;
+}
+
+.Wallmer-wind-4 .element1 {
+    border: 3px solid rgba(53, 113, 253, 0.1);
+    position: absolute;
+    top: 41px;
+    left: 25px;
+    border-radius: 8px;
+}
+
+.Wallmer-wind-4 .element2 {
+    position: absolute;
+    top: 136px;
+    left: -1px;
+    width: 150px;
+    height: 80px;
+    background: #242642;
+    border: 1px solid #3571FD;
+    border-radius: 16px;
+    padding: 14px 32px 14px 16px;
+}
+
+.Wallmer-wind-4 .element2 p:first-child {
+    line-height: 24px;
+}
+
+.Wallmer-wind-4 .element2 p:last-child {
+    margin-top: 6px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#Red-cluss{
+    position: static;
+}
+.Wallmer-wind-4 .element3 {
+    position: absolute;
+    top: 355px;
+    left: 0px;
+    width: 146px;
+    height: 50px;
+    background: #191A2E;
+    border: 1px solid #3571FD;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11.67px 15px 11.67px 13.67px;
+}
+#red-reduce{
+    position: static;
+}
+.Wallmer-wind-4 .element4{
+    position: absolute;
+    top: 226px;
+    left: 470px;
+    width: 146px;
+    height: 50px;
+    padding: 11.67px 14px 11.67px 13.67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #191A2E;
+    border: 1px solid #3571FD;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+#share,
+#pluss{
+    position: static;
+}
+.Wallmer-wind-4  .element5{
+    position: absolute;
+    top: 117px;
+    left: 454px;
+    width: 113px;
+    height: 60px;
+    padding: 22px 25px 22px 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #191A2E;
+    border: 1px solid #3571FD;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+.Wallmer-wind-4  .element6{
+    position: absolute;
+    top: 101px;
+    left: 212px;
+    width: 119px;
+    height: 28px;
+    padding: 2px 8px 2px 9.33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #191A2E;
+    border: 1px solid #3571FD;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.Wallmer-wind-4  .element6 p{
+    margin-left: 9.3px;
+    color: #B8B8BC;
+    font-family: "SF Pro Display-400",sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
 /* ====== Wallmer end ====== */
 
 /* ===== one-place start ===== */
@@ -1320,6 +1605,7 @@ header {
 }
 
 .slider {
+    margin-top: 42px;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -1452,7 +1738,7 @@ header {
 
 .Statistic-Ready-to-start-baground-absolute {
     position: absolute;
-    top: 4541px;
+    top: 4548px;
     background: linear-gradient(180deg, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0.01%, rgba(28, 29, 58, 0.12) 41.35%, #191A2D 95.63%);
     height: 406px;
     width: 100%;
@@ -1595,4 +1881,5 @@ footer {
     margin-top: 30px;
     margin-bottom: 31px;
 }
+
 /* ===== footer end===== */
