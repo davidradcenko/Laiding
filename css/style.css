@@ -763,13 +763,6 @@ header {
     background-image: url('../img/about-us/Bloomberg-hover.png');
 }
 
-.div-Bloomberg::before {
-    content: url('../img/about-us/Arrow-8.svg');
-    position: absolute;
-    top: 35px;
-    left: 77px;
-}
-
 .div-COINTELEGRAPH {
     background-image: url('../img/about-us/COINTELEGRAPH.png');
     background-position: center;
