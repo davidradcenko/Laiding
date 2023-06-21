@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: "SF Pro Display-700";
-    src: url('../fonts/SF Pro Display/woff2/SFPRODISPLAYBOLD.woff2') format('woff2'),
-        url('../fonts/SF Pro Display/woff/SFPRODISPLAYBOLD.woff') format('woff');
+    src: url('../fonts/SF Pro Display/700/SF-Pro-Display-Bold.woff2') format('woff2'),
+        url('../fonts/SF Pro Display/700/SF-Pro-Display-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
@@ -564,6 +564,7 @@ header {
 
 /* ====== Statistic followers start ======  */
 .Statistic-followers-baground-absolute {
+    z-index: -1;
     position: absolute;
     top: 746px;
     width: 100%;
@@ -577,7 +578,7 @@ header {
     width: 100%;
     height: 520px;
     background: linear-gradient(180deg, rgba(38, 39, 71, 0) 0%, #191A2D 54.8%, #191A2D 62.27%, rgba(25, 26, 45, 0) 95.65%);
-    z-index: -1;
+    z-index: -2;
 }
 
 .Statistic-followers {
@@ -1206,14 +1207,22 @@ header {
     line-height: 19px;
     color: #E5E5E5;
 }
+.Ready-to-start-absolute-3{
+    display: none;
+}
+
+.Ready-to-start-absolute-4,
+.Ready-to-start-absolute-5{
+    display: none;
+}
 
 .testd {
     position: absolute;
-    top: 103px;
-    left: -41px;
-    width: 42px;
-    height: 30px;
-    background-color: #3571FD;
+    top: 4875px;
+    right: 0px;
+    width: 151px;
+    height: 92px;
+    background-color: red;
 }
 
 .Wallmer-wind-4 .element1 {

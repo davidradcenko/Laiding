@@ -1,0 +1,252 @@
+@media (min-width: 1920px) {
+    .main-container {
+        width: 1504px;
+    }
+
+    .Triangle-absolute {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Mainly {
+        margin-top: 75px;
+    }
+
+    .sub-Title-preview {
+        margin-top: 7px;
+    }
+
+    .Photo-profile {
+        margin-top: 48px;
+    }
+
+    .photo-profile {
+        width: 1024px;
+        height: 654px;
+    }
+
+    .Mainly-absolute-users-followers {
+        top: 95px;
+        right: 431px;
+    }
+
+    .Mainly-absolute-partfolio-copied {
+        right: -239px;
+        top: 281px;
+    }
+
+    .Mainly-absolute-winding-line {
+        top: 109px;
+        right: -111px;
+    }
+
+    .Mainly-absolute-box-lilac {
+        top: 53px;
+        right: -216px;
+    }
+
+    .Mainly-absolute-copy {
+        top: 153px;
+        right: -201px;
+    }
+
+    .Mainly-absolute-Earn {
+        top: 459px;
+        right: -116px;
+    }
+
+    .Mainly-absolute-data {
+        top: 393px;
+        right: -223px;
+    }
+
+    .Mainly-absolute-statistics {
+        top: 473px;
+        left: 8px;
+    }
+
+    .Mainly-absolute-left-winding-line {
+        top: 57px;
+        left: -118px
+    }
+
+    .Mainly-absolute-left-Share {
+        top: 28px;
+        left: -210px;
+    }
+
+    .Mainly-absolute-left-To-the-Moon {
+        top: 170px;
+        left: -172px;
+    }
+
+    .Mainly-absolute-left-social {
+        top: 283px;
+        left: -193px;
+    }
+
+    .Mainly-absolute-left-Track {
+        top: 329px;
+        left: -114px;
+    }
+
+    .Mainly-absolute-left-Added-to-Watchlist {
+        top: 416px;
+        left: -144px;
+    }
+
+    .Mainly-buttons {
+        margin-top: 56px;
+    }
+
+    .Statistic-followers div {
+        margin-top: 196px;
+    }
+
+    .Statistic-followers-baground-absolute {
+        height: 380px;
+        top: 1074px;
+    }
+
+
+    /*becoming-trusted */
+
+
+    .becoming-trusted {
+        margin-top: 277px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .becoming-trusted-title {
+        text-align: left;
+        font-size: 40px;
+        line-height: 50px;
+        width: 671px;
+    }
+
+    .becoming-trusted-content {
+        margin-top: 40px;
+    }
+
+    .becoming-trusted-list li {
+        leading-trim: both;
+        text-edge: cap;
+    }
+
+    .becoming-trusted-content div:first-child button {
+        margin-top: 48px;
+    }
+
+    .becoming-trusted-absolute-cost-follower {
+        top: 5px;
+        left: 176px;
+    }
+
+    .becoming-trusted-absolute-end img {
+        top: -358px;
+        right: 0px;
+    }
+
+    .media-about-us-title {
+        margin-top: 180px;
+    }
+
+    .Statistic-aboutUs-baground-absolute {
+        top: 2401px;
+    }
+
+    .Wallmer-title {
+        margin-top: 175px;
+    }
+
+    .one-place {
+        margin-top: 265px;
+    }
+
+    .one-place-content {
+        margin-top: 58px;
+        padding: 0px;
+    }
+
+    .start-following {
+        margin-top: -93px;
+    }
+
+
+    .Ready-to-start {
+        margin-top: 86px;
+    }
+
+    .Ready-to-start-absolute-undertitle,
+    .Ready-to-start-absolute-1,
+    .Ready-to-start-absolute-2 {
+        display: none;
+    }
+
+    .footer-div-Contact-Follow {
+        margin-right: 19px;
+    }
+
+    .Ready-to-start-absolute-3 {
+        position: absolute;
+        display: block;
+        top: -39px;
+        left: 307px;
+        width: 888px;
+        height: 722px;
+        z-index: -3;
+    }
+
+    .Ready-to-start-absolute-4 {
+        position: absolute;
+        display: block;
+        top: -87px;
+        left: 1491px;
+        width: 209.64px;
+        height: 355px;
+        z-index: -3;
+    }
+
+    .Ready-to-start-absolute-5 {
+        position: absolute;
+        display: block;
+        top: 31px;
+        left: -208px;
+        width: 284px;
+        height: 353px;
+        height: 282px;
+        z-index: -3;
+    }
+
+    .Statistic-Ready-to-start-baground-absolute {
+
+        top: 5520px;
+        width: 100%;
+        height: 623px;
+        background: linear-gradient(180deg, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0.01%, rgba(28, 29, 58, 0.12) 41.35%, #191A2D 95.63%);
+    }
+
+    .footer-nav-links {
+        margin-top: 41px;
+    }
+
+    footer {
+        margin-top: 66px;
+        padding: 0px;
+    }
+
+    .Copyright {
+        margin-top: 6px;
+        margin-bottom: 40px;
+    }
+    .one-place-content::after{
+        content: url('..//img/one-place-block/Rectangle1.svg');
+        left: -56px;
+    }
+    .one-place-content::before{
+        content: url('..//img/one-place-block/Rectangle2.svg');
+        right: -55px;
+    }
+}
