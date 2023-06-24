@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media-1920.css">
+    <link rel="stylesheet" type="text/css" href="css/media-1440-1024.css">
+    <link rel="stylesheet" type="text/css" href="css/media-768.css">
+    <link rel="stylesheet" type="text/css" href="css/media-375.css">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,45 +22,59 @@
 <body>
     <!--===== Main Container Start =====-->
     <div class="main-container">
-        <svg class="Triangle-absolute" width="1438" height="563" viewBox="0 0 1438 563" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
+
+        <svg class="Triangle-absolute" viewBox="0 0 1438 563" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M718.5 563L1507.02 -10.75H-70.0161L718.5 563Z" fill="#191A2D" />
         </svg>
+        <svg class="Triangle-786" width="768" height="449" viewBox="0 0 768 449" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M383.5 449L1009.2 -6.25H-242.203L383.5 449Z" fill="#191A2D"/>
+        </svg>   
+        <svg class="Triangle-375" width="375" height="322" viewBox="0 0 375 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M187.5 322L632.204 -2H-257.204L187.5 322Z" fill="#191A2D"/>
+        </svg>         
         <!--===== Header Start =====-->
         <header>
             <div class="logo">
                 <a href="#"><img src="img/logo.svg" alt="logo"></a>
             </div>
             <div class="header-menu">
-                <ul class="header-nav">
-                    <li><a href="#Community" class="active">Community</a></li>
-                    <li><a class="color-dark-white" href="#Portfolio-tracker">Portfolio tracker</a></li>
-                    <li><a class="color-dark-white" href="#Exchange">Exchange</a></li>
-                    <li><a class="color-dark-white" href="#Wallet">Wallet</a></li>
-                    <li><a class="color-dark-white" href="#Pricing">Pricing</a></li>
-                </ul>
-                <div class="header-buttons">
-                    <button class="Log-in color-dark-white">Log in</button>
-                    <!--
-                    --><button class="Sign-Up color-white">Sign Up</button>
+                <div class="burger-conteiner">
+                    <ul class="header-nav">
+                        <li><a href="#Community" class="active">Community</a></li>
+                        <li><a class="color-dark-white" href="#Portfolio-tracker">Portfolio tracker</a></li>
+                        <li><a class="color-dark-white" href="#Exchange">Exchange</a></li>
+                        <li><a class="color-dark-white" href="#Wallet">Wallet</a></li>
+                        <li><a class="color-dark-white" href="#Pricing">Pricing</a></li>
+                    </ul>
+                    <div class="header-buttons">
+                        <button class="Log-in color-dark-white">Log in</button>
+                        <!--
+                        --><button class="Sign-Up color-white">Sign Up</button>
+                    </div>  
+                </div>
+                <div class="icon nav-icon-5">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-
         </header>
         <!--===== Header End =====-->
+
         <!--===== Mainly Start =====  -->
-        <div class="Mainly">
-            <p class="preview-Title">Where Crypto Enthusiasts meet</p>
+
+
+        <div class="Mainly"> 
+            <p class="preview-Title">Where<span class="Where-span"> Crypto Enthusiasts meet</span></p>
             <p class="sub-Title-preview">New way to monetize your knowledge and expertise in the crypto space</p>
             <div class="Photo-profile">
-                <img class="photo-profile" src="img/Mainly-block/photo-profile.png" alt="photo profile">
-                <!-- absolute users-followers-->
+                <img class="photo-profile" src="img/Mainly-block/photo-profile.svg" alt="photo profile">
+                <img class="photo-profile-375" src="img/Mainly-block/photo-profile-375.svg" alt="photo profile">
                 <div class="Mainly-absolute-users-followers">
                     <img src="img/Mainly-block/profile-2user.svg" alt="profile 2 user">
                     <p>37</p>
                     <p>Followers</p>
                 </div>
-                <!-- absolute statistics  -->
                 <div class="Mainly-absolute-statistics">
                     <p class="Mainly-absolute-statistics-title">Holdings Category</p>
                     <div class="Mainly-absolute-content">
@@ -93,8 +110,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- absolute statistics  -->
-                <!-- absolute right side  -->
                 <div class="Mainly-absolute-winding-line">
                     <svg width="110" height="59" viewBox="0 0 110 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -149,7 +164,6 @@
                         </defs>
                     </svg>
                 </div>
-                <!-- absolute left side  -->
                 <div class="Mainly-absolute-left-winding-line">
                     <svg width="119" height="62" viewBox="0 0 119 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -177,6 +191,9 @@
                 <div class="Mainly-absolute-left-Track">
                     Track
                 </div>
+                <div class="display-Mainly-absolute-left-Added-to-Watchlist">
+                    <img src="img/Mainly-block/display/Vector.svg" alt="">
+                </div>
                 <div class="Mainly-absolute-left-Added-to-Watchlist">
                     <div class="Mainly-absolute-left-Added-to-Watchlist-svg">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -192,12 +209,14 @@
                     <p>Added to Watchlist</p>
                 </div>
             </div>
-            <!-- absolute elements end  -->
             <div class="Mainly-buttons">
                 <button>Try Demo</button><button>Watch Video</button>
             </div>
         </div>
+
+
         <!--===== Mainly End =====  -->
+
         <!--===== Statistic followers start =====-->
         <div class="Statistic-followers">
             <div>
@@ -218,7 +237,10 @@
             </div>
         </div>
         <!--===== Statistic followers end =====  -->
+
         <!--===== becoming a trusted start  =====-->
+
+
         <div class="becoming-trusted">
             <p class="becoming-trusted-title">becoming a trusted crypto trader has never been so easy</p>
             <div class="becoming-trusted-content">
@@ -237,14 +259,18 @@
                         <p>1 follower = 1 $</p>
                     </div>
                     <div class="becoming-trusted-absolute-end">
-                        <img src="./img/becoming-trusted-block/end/Frame-6355991.png" alt="">
+                        <img src="./img/becoming-trusted-block/end/Frame-6355991.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
+
         <!--===== becoming a trusted end  =====-->
+
         <!-- media about us start -->
+
+
         <div class="media-about-us">
             <p class="media-about-us-title">media about us</p>
             <div class="media-about-us-conteiner">
@@ -255,14 +281,15 @@
                     <a href="#">
                         <div class="div-Bloomberg"></div>
                     </a>
+                    <div class="media-display-1280"></div>
                     <a href="#">
                         <div class="div-COINTELEGRAPH"></div>
                     </a>
-                </div>
-                <div class="next-line">
+                    <div class="media-display-1440"></div>
                     <a href="#">
                         <div class="div-Investing"></div>
                     </a>
+                    <div class="media-display-1280"></div>
                     <a href="#">
                         <div class="div-CoinDesk"></div>
                     </a>
@@ -270,30 +297,32 @@
                         <div class="div-CryptoDaily"></div>
                     </a>
                 </div>
+                <!-- <div class="next-line">
+                   
+                </div> -->
             </div>
         </div>
+
+
         <!-- media about us end -->
+
         <!-- Wallmer start -->
+
+
         <div class="Wallmer">
             <p class="media-about-us-title Wallmer-title">Wallmer for community members</p>
             <div class="Wallmer-content">
                 <div class="Wallmer-content-left">
-                    <!-- absolute -->
-                    <!-- background elements -->
                     <img class="Wallmer-content-left-circles" src="./img/Wallmer/Elepses.svg" alt="circles">
                     <img class="Vector1-Elleps" src="./img/Wallmer/Vector1-Elleps.svg" alt="Vector1-Elleps">
                     <img class="Vector2-Elleps" src="./img/Wallmer/Vector2-Elleps.svg" alt="Vector2-Elleps">
-
-
-
-
                     <div id="Wallmer-wind-1" class="Wallmer-wind-1">
-                        <img class="element1" src="img/Wallmer/block1/element1.png" alt="frame from profile">
-                        <img class="element2" src="img/Wallmer/block1/element2.png" alt="frame from profile">
+                        <img class="element1" src="img/Wallmer/block1/element1.svg" alt="frame from profile">
+                        <img class="element2" src="img/Wallmer/block1/element2.svg" alt="frame from profile">
                         <img class="element3" src="img/Wallmer/block1/Vector-170.svg" alt="Vector">
                     </div>
                     <div id="Wallmer-wind-2" class="Wallmer-wind-2">
-                        <img id="main-image" class="Wallmer-content-left-window" src="./img/Wallmer/block2/element1.png"
+                        <img id="main-image" class="Wallmer-content-left-window" src="./img/Wallmer/block2/element1.svg"
                             alt="frame from profile">
                         <button class="Wallmer-absolute-Buy-BTC">Buy BTC</button>
                         <button class="Wallmer-absolute-Sell-ETH">Sell ETH</button>
@@ -320,11 +349,11 @@
                         </div>
                     </div>
                     <div id="Wallmer-wind-3" class="Wallmer-wind-3">
-                        <img class="element1" src="./img/Wallmer/block3/element1.png" alt="frame from profile">
-                        <img class="element2" src="./img/Wallmer/block3/element2.png" alt="frame from profile">
+                        <img class="element1" src="./img/Wallmer/block3/element1.svg" alt="frame from profile">
+                        <img class="element2" src="./img/Wallmer/block3/element2.svg" alt="frame from profile">
                         <div class="element3">
                             <img id="email-img" src="./img/Wallmer/block3/Group3.svg" alt="email">
-                            <p><span class="Team">Wallmer Team</span><br><span class="notification">New
+                            <p><span class="Team">Wallmer Team</span><br class="br-375"><span class="notification">New
                                     notification</span></p>
                         </div>
                         <div class="element4">
@@ -333,7 +362,7 @@
                         </div>
                     </div>
                     <div id="Wallmer-wind-4" class="Wallmer-wind-4">
-                        <img class="element1" src="./img/Wallmer/block4/element1.png" alt="frame from profile">
+                        <img class="element1" src="./img/Wallmer/block4/element1.svg" alt="frame from profile">
                         <div class="element2">
                             <p>Total Holdings</p>
                             <p>$14 071.10</p>
@@ -356,7 +385,7 @@
                         </div>
                     </div>
                     <div id="Wallmer-wind-5" class="Wallmer-wind-4">
-                        <img class="element1" src="./img/Wallmer/block4/element1.png" alt="frame from profile">
+                        <img class="element1" src="./img/Wallmer/block4/element1.svg" alt="frame from profile">
                         <div class="element2">
                             <p>Total Holdings</p>
                             <p>$14 071.10</p>
@@ -379,8 +408,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="Wallmer-Wallmer-content-right">
                     <div class="accordion">
                         <div class="item">
@@ -454,10 +481,16 @@
                 </div>
             </div>
         </div>
+
+
         <!-- Wallmer end -->
+
         <!-- one place start -->
 
+
         <div class="one-place">
+            <img class="one-place-abs-display1" src="./img/one-place-block/display/Rectangle1.svg" alt="image">
+            <img class="one-place-abs-display2" src="./img/one-place-block/display/Rectangle2.svg" alt="image">
             <p class="media-about-us-title one-place-title">all you need in one place</p>
             <div class="one-place-content">
                 <div class="one-place-content-block">
@@ -481,6 +514,7 @@
                     <p><span class="one-place-blue">Connect 15+</span> Exchanges, Wallets, Adresses or Add Transactions
                         Manually</p>
                 </div>
+
                 <div class="one-place-content-block">
                     <div class="one-place-content-block-img">
                         <img class="one-place2-1" src="./img/one-place-block/absolute-block2/Frame-39287-(1).svg"
@@ -498,6 +532,7 @@
                     <p>Timely <span class="one-place-green">AI Powered Push Notifications</span> for your ultimate
                         success</p>
                 </div>
+
                 <div class="one-place-content-block">
                     <div class="one-place-content-block-img">
                         <img class="one-place3-1" src="./img/one-place-block/absolute-block3/BTC.svg" alt="BTC">
@@ -519,6 +554,7 @@
                     <p>Powerful <span class="one-place-blue"> Built-in Exchange </span> with the Best Fees and Fastest
                         Transactions </p>
                 </div>
+
                 <div class="one-place-content-block">
                     <div class="one-place-content-block-img">
                         <img class="one-place4-1" src="./img/one-place-block/absolute-block4/Frame-8.svg" alt="+11%">
@@ -530,6 +566,7 @@
                     <p>Meaningful Data and <span class="one-place-green"> Key Portfolio Metrics</span> with <span
                             class="one-place-blue">Interactive Dashboard</span></p>
                 </div>
+
                 <div class="one-place-content-block">
                     <div class="one-place-content-block-img">
                         <img class="one-place5-1" src="./img/one-place-block/absolute-block5/Frame-38213.svg"
@@ -543,6 +580,7 @@
                     <p><span class="one-place-blue">Safe</span> and <span class="one-place-blue"> Secure Non Custodial
                             Wallet</span> to operate and store your crypto</p>
                 </div>
+
                 <div class="one-place-content-block">
                     <div class="one-place-content-block-img">
                         <img class="one-place6-1" src="./img/one-place-block/absolute-block6/Frame-6356003.svg"
@@ -556,107 +594,159 @@
                 </div>
             </div>
         </div>
+
+
         <!-- one place end -->
+
         <!-- start following start -->
-        <div class="start-following">
+         <div class="start-following"> 
             <p class="media-about-us-title start-following-title">Start following them</p>
-            <div class="start-following-slider">
+            <div class="abxolute1024">
 
 
+                <button class="slider-button slider-button-prev"><img src="./img/slider/arrow-right2.svg"
+                    alt="arrow-right"></button>
+            <button class="slider-button slider-button-next"><img src="./img/slider/arrow-right.svg"
+                    alt="arrow-right"></button>
 
 
-                <div class="slider">
-                    <div class="slider-container">
-                        <div class="slider-track">
-                            <div class="slider-item ">
-                                <div class="content-slider-block">
-                                    <div>
-                                        <img src="img/slider/Ellipse1.png" alt="user photo">
-                                        <p class="user-login">@BenittoBen</p>
-                                        <p class="user-rating">100+ People Copied</p>
-                                        <a class="link-for-user" href="#">Check Profile</a>
-                                        <p class="percent"><span>+121%</span></p>
+                <div class="start-following-slider">
+
+                    <div class="slider">
+
+                        <div class="slider-container">
+                            <div class="slider-track">
+
+                                <div id="delete-wigth1-more-then-1440" class="slider-item">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse1.png" alt="user photo">
+                                            <p class="user-login">@BenittoBen</p>
+                                            <p class="user-rating">100+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+
+                                            <p class="percent"><span>+116%</span></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slider-item centered">
-                                <div class="content-slider-block">
-                                    <div>
-                                        <img src="img/slider/Ellipse2.png" alt="user photo">
-                                        <p class="user-login">@Beststrategy</p>
-                                        <p class="user-rating">150+ People Copied</p>
-                                        <a class="link-for-user" href="#">Check Profile</a>
 
-                                        <p class="percent"><span>+173%</span></p>
-
+                                <div class="slider-item ">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse1.png" alt="user photo">
+                                            <p class="user-login">@BenittoBen</p>
+                                            <p class="user-rating">100+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+                                            <p class="percent"><span>+121%</span></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slider-item  right-aligned">
-                                <div class="content-slider-block">
-                                    <div>
-                                        <img src="img/slider/Ellipse3.png" alt="user photo">
-                                        <p class="user-login">@Wolf_Pack</p>
-                                        <p class="user-rating">230+ People Copied</p>
-                                        <a class="link-for-user" href="#">Check Profile</a>
 
-                                        <p class="percent"><span>+116%</span></p>
+                                <div class="slider-item centered ">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse2.png" alt="user photo">
+                                            <p class="user-login">@Beststrategy</p>
+                                            <p class="user-rating">150+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+
+                                            <p class="percent"><span>+173%</span></p>
+
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slider-item">
-                                <div class="content-slider-block">
-                                    <div>
-                                        <img src="img/slider/Ellipse1.png" alt="user photo">
-                                        <p class="user-login">@BenittoBen</p>
-                                        <p class="user-rating">100+ People Copied</p>
-                                        <a class="link-for-user" href="#">Check Profile</a>
 
-                                        <p class="percent"><span>+121%</span></p>
+                                <div class="slider-item right-aligned">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse3.png" alt="user photo">
+                                            <p class="user-login">@Wolf_Pack</p>
+                                            <p class="user-rating">230+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+
+                                            <p class="percent"><span>+116%</span></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slider-item ">
-                                <div class="content-slider-block">
-                                    <div>
-                                        <img src="img/slider/Ellipse1.png" alt="user photo">
-                                        <p class="user-login">@BenittoBen</p>
-                                        <p class="user-rating">100+ People Copied</p>
-                                        <a class="link-for-user" href="#">Check Profile</a>
 
-                                        <p class="percent"><span>+173%</span></p>
+                                <div class="slider-item ">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse1.png" alt="user photo">
+                                            <p class="user-login">@BenittoBen</p>
+                                            <p class="user-rating">100+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+
+                                            <p class="percent"><span>+121%</span></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slider-item ">
-                                <div class="content-slider-block">
-                                    <div>
-                                        <img src="img/slider/Ellipse1.png" alt="user photo">
-                                        <p class="user-login">@BenittoBen</p>
-                                        <p class="user-rating">100+ People Copied</p>
-                                        <a class="link-for-user" href="#">Check Profile</a>
 
-                                        <p class="percent"><span>+116%</span></p>
+                                <div class="slider-item ">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse1.png" alt="user photo">
+                                            <p class="user-login">@BenittoBen</p>
+                                            <p class="user-rating">100+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+
+                                            <p class="percent"><span>+173%</span></p>
+                                        </div>
                                     </div>
                                 </div>
+
+                                <div class="slider-item ">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse1.png" alt="user photo">
+                                            <p class="user-login">@BenittoBen</p>
+                                            <p class="user-rating">100+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+
+                                            <p class="percent"><span>+116%</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="delete-wigth2-more-then-1440" class="slider-item right-aligned">
+                                    <div class="content-slider-block">
+                                        <div>
+                                            <img src="img/slider/Ellipse1.png" alt="user photo">
+                                            <p class="user-login">@BenittoBen</p>
+                                            <p class="user-rating">100+ People Copied</p>
+                                            <a class="link-for-user" href="#">Check Profile</a>
+                                            <p class="percent"><span>+121%</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
+
+                        <!-- <button class="slider-button slider-button-prev"><img src="./img/slider/arrow-right2.svg"
+                                alt="arrow-right"></button>
+                        <button class="slider-button slider-button-next"><img src="./img/slider/arrow-right.svg"
+                                alt="arrow-right"></button> -->
                     </div>
-                    <button class="slider-button slider-button-prev"><img src="./img/slider/arrow-right2.svg"
-                            alt="arrow-right"></button>
-                    <button class="slider-button slider-button-next"><img src="./img/slider/arrow-right.svg"
-                            alt="arrow-right"></button>
+
                 </div>
-
-
-
-
             </div>
-        </div>
+        </div> 
+
+
         <!-- start following end -->
+
 
         <!-- Ready to start  -->
         <div class="Ready-to-start">
+            <img class="Ready-to-start-absolute-6" src="./img/one-place-block/display/Ellipse2.svg" alt="Ellipse">
+            <img class="Ready-to-start-absolute-7" src="./img/one-place-block/display/Ellipse1.svg" alt="Ellipse">
+
+            <img class="Ready-to-start-absolute-1" src="./img/ready-to/Ellipse1.svg" alt="Ellipse">
+            <img class="Ready-to-start-absolute-2" src="./img/ready-to/Ellipse2.svg" alt="Ellipse">
+
+            <img class="Ready-to-start-absolute-1-375" src="./img/ready-to/Ellipse1-375.svg" alt="Ellipse">
+            <img class="Ready-to-start-absolute-2-375" src="./img/ready-to/Ellipse2-375.svg" alt="Ellipse">
             <div class="Ready-to-start-content">
                 <p class="Ready-to-start-title">Wallmer | Community</p>
                 <p class="Ready-to-start-new-way">New way to monetize your crypto knowledge</p>
@@ -666,16 +756,16 @@
                     <button>Sign Up</button>
                 </div>
                 <img class="Ready-to-start-absolute-undertitle" src="./img/ready-to/Ellipse-997.svg" alt="Ellipse">
-                <img class="Ready-to-start-absolute-1" src="./img/ready-to/Ellipse1.svg" alt="Ellipse">
-                <img class="Ready-to-start-absolute-2" src="./img/ready-to/Ellipse2.svg" alt="Ellipse">
+               
 
                 <img class="Ready-to-start-absolute-3" src="./img/ready-to/Ellipse1920.svg" alt="Ellipse">
                 <img class="Ready-to-start-absolute-4" src="./img/ready-to/Ellipse2-1920.svg" alt="Ellipse">
-                <img class="Ready-to-start-absolute-5" src="./img/ready-to/Ellipse3-1920.svg" alt="Ellipse">
+                <img class="Ready-to-start-absolute-5" src="./img/ready-to/Ellipse3-1920.svg" alt="Ellipse">   
             </div>
         </div>
-
         <!-- Ready to end  -->
+
+
         <footer>
             <a href="#"><img src="./img/logo.svg" alt=""></a>
             <div class="footer-nav-links">
@@ -696,6 +786,7 @@
                         <li><a href="#">Submit a Partnership</a> </li>
                     </ul>
                 </div>
+                <div class="breake-line"></div>
                 <div class="footer-div-Legal ">
                     <p>Legal</p>
                     <ul>
@@ -703,6 +794,7 @@
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
+                <div class="break-colum"></div>
                 <div class="footer-div-Contact-support ">
                     <p>Contact support</p>
                     <ul>
@@ -727,10 +819,14 @@
 
     </div>
     <!--===== Main Container End =====-->
+
     <div class="Statistic-followers-baground-absolute"></div>
     <div class="Statistic-aboutUs-baground-absolute"></div>
     <div class="Statistic-Ready-to-start-baground-absolute"></div>
-    <!-- <div class="testd"></div> -->
+    <svg class="Statistic-Triangle-768" viewBox="0 0 1438 563" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M718.5 563L1507.02 -10.75H-70.0161L718.5 563Z" fill="#191A2D" />
+    </svg>
+    <div class="testd"></div>
 
     <script src="./js/index.js"></script>
 </body>

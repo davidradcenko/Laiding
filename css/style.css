@@ -21,7 +21,13 @@
     font-weight: 300;
     font-style: normal;
 }
-
+@font-face {
+    font-family: "SF Pro Display-600";
+    src: url('../fonts/SF Pro Display/600/SF-Pro-Display-Semibold.woff2') format('woff2'),
+        url('../fonts/SF Pro Display/600/SF-Pro-Display-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
 @font-face {
     font-family: "SF Pro Display-700";
     src: url('../fonts/SF Pro Display/700/SF-Pro-Display-Bold.woff2') format('woff2'),
@@ -77,6 +83,9 @@ html {
     scroll-behavior: smooth;
 }
 
+/* *{
+    border: 0.1px solid red;
+} */
 ul {
     padding: 0px;
     margin: 0px;
@@ -89,9 +98,12 @@ li {
 }
 
 body {
+    margin: 0;
+    z-index: 2;
+    padding: 0;
+    border: 0;
     font-size: 16px;
     font-family: 'SF Pro Display', sans-serif;
-    z-index: 2;
     color: var(--bg-white);
     background-color: var(--bg-background);
 }
@@ -139,11 +151,16 @@ ul {
 /* start */
 
 .main-container {
+    position: relative;
     width: 1440px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 0.1px solid red;
+    overflow: hidden;
 }
 
+/* *{
+    border: 0.1px solid #19DA8C;  
+} */
 header {
     width: 100%;
     display: flex;
@@ -170,10 +187,15 @@ header {
 
 .header-menu {
     width: 100%;
+}
+.Triangle-786{
+    display: none;
+}
+.burger-conteiner{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
 .header-nav {
     display: flex;
     align-items: center;
@@ -222,6 +244,7 @@ header {
     z-index: -1;
     top: 0px;
     width: 1440px;
+    height: 563;
 }
 
 
@@ -244,7 +267,20 @@ header {
     font-size: 50px;
     line-height: 70px;
 }
-
+/* .Where-span{
+    display: none;
+} */
+.photo-profile-375{
+    display: none;
+}
+.Ready-to-start-absolute-1-375,
+.Ready-to-start-absolute-2-375,
+.breake-line{
+    display: none;
+}
+.Triangle-375{
+    display: none;
+}
 .sub-Title-preview {
     font-family: "SF Pro Display-400", sans-serif;
     font-size: 20px;
@@ -253,10 +289,14 @@ header {
 }
 
 .Photo-profile {
+    
     margin-top: 31px;
     position: relative;
 }
-
+.photo-profile{
+width: 695px;
+    height: 444px;
+}
 /* absolute imgs */
 .Mainly-absolute-users-followers {
     width: 105px;
@@ -450,7 +490,9 @@ header {
     font-size: 24px;
     font-style: normal;
 }
-
+.icon nav-icon-5{
+    display: none;
+}
 .Mainly-absolute-left-Share p::before {
     content: url('../img/Mainly-block/left side/Shape.svg');
     margin-right: 6.5px;
@@ -566,7 +608,7 @@ header {
 .Statistic-followers-baground-absolute {
     z-index: -1;
     position: absolute;
-    top: 746px;
+    top: 701px;
     width: 100%;
     height: 314px;
     background: linear-gradient(180deg, rgba(38, 39, 71, 0) 0%, #191A2D 54.8%, #191A2D 62.27%, rgba(25, 26, 45, 0) 95.65%);
@@ -574,7 +616,7 @@ header {
 
 .Statistic-aboutUs-baground-absolute {
     position: absolute;
-    top: 1850px;
+    top: 1803px;
     width: 100%;
     height: 520px;
     background: linear-gradient(180deg, rgba(38, 39, 71, 0) 0%, #191A2D 54.8%, #191A2D 62.27%, rgba(25, 26, 45, 0) 95.65%);
@@ -765,9 +807,11 @@ header {
 }
 
 .div-COINTELEGRAPH {
-    background-image: url('../img/about-us/COINTELEGRAPH.png');
+    background-image: url('../img/about-us/COINTELEGRAPH.png') ;
+    background-repeat: no-repeat;
     background-position: center;
-    background-position-x: -37px;
+    background-size:    270px 69.6px;
+    /* background-position-x: -37px; */
     width: 270px;
     height: 69.69px;
     overflow: hidden;
@@ -775,6 +819,7 @@ header {
 
 .div-COINTELEGRAPH:hover {
     background-image: url('../img/about-us/COINTELEGRAPH-hover.png');
+    background-size: auto;
 }
 
 .div-Investing {
@@ -821,6 +866,16 @@ header {
 
 .firs-line {
     margin-top: 115px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.media-display-1280{
+    display: none !important;
+}
+.firs-line > a:nth-last-child(-n+4) {
+    margin-top: 35px;
+    align-items: center;
 }
 
 .media-about-us-conteiner::after {
@@ -881,12 +936,9 @@ header {
 
 .Wallmer-content-left-circles {
     position: absolute;
-    top: -41px;
-    left: -41px;
+    top: -133px;
+    left: -300px;
     z-index: -1;
-
-    width: 683px;
-    height: 683px;
 }
 
 .Vector2-Elleps {
@@ -900,7 +952,9 @@ header {
     bottom: -16px;
     left: 385px;
 }
-
+.display-Mainly-absolute-left-Added-to-Watchlist{
+    display: none;
+}
 .Wallmer-absolute-Buy-BTC {
     position: absolute;
     top: 40px;
@@ -1063,8 +1117,11 @@ header {
 
 .active .accordion-content {
     display: block;
+    
 }
-
+.active {
+    background: var(--bg-background) !important;
+}
 .active .accordion-button {
     background-color: var(--bg-background);
 }
@@ -1207,23 +1264,17 @@ header {
     line-height: 19px;
     color: #E5E5E5;
 }
-.Ready-to-start-absolute-3{
+
+.Ready-to-start-absolute-3 {
     display: none;
 }
 
 .Ready-to-start-absolute-4,
-.Ready-to-start-absolute-5{
+.Ready-to-start-absolute-5 {
     display: none;
 }
 
-.testd {
-    position: absolute;
-    top: 4875px;
-    right: 0px;
-    width: 151px;
-    height: 92px;
-    background-color: red;
-}
+
 
 .Wallmer-wind-4 .element1 {
     border: 3px solid rgba(53, 113, 253, 0.1);
@@ -1255,9 +1306,11 @@ header {
     letter-spacing: -0.1px;
     color: rgba(255, 255, 255, 0.7);
 }
-#Red-cluss{
+
+#Red-cluss {
     position: static;
 }
+
 .Wallmer-wind-4 .element3 {
     position: absolute;
     top: 355px;
@@ -1273,10 +1326,12 @@ header {
     align-items: center;
     padding: 11.67px 15px 11.67px 13.67px;
 }
-#red-reduce{
+
+#red-reduce {
     position: static;
 }
-.Wallmer-wind-4 .element4{
+
+.Wallmer-wind-4 .element4 {
     position: absolute;
     top: 226px;
     left: 470px;
@@ -1291,11 +1346,13 @@ header {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 }
+
 #share,
-#pluss{
+#pluss {
     position: static;
 }
-.Wallmer-wind-4  .element5{
+
+.Wallmer-wind-4 .element5 {
     position: absolute;
     top: 117px;
     left: 454px;
@@ -1311,7 +1368,7 @@ header {
     border-radius: 16px;
 }
 
-.Wallmer-wind-4  .element6{
+.Wallmer-wind-4 .element6 {
     position: absolute;
     top: 101px;
     left: 212px;
@@ -1326,32 +1383,36 @@ header {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
 }
-.Wallmer-wind-4  .element6 p{
+
+.Wallmer-wind-4 .element6 p {
     margin-left: 9.3px;
     color: #B8B8BC;
-    font-family: "SF Pro Display-400",sans-serif;
+    font-family: "SF Pro Display-400", sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
+
 /* ====== Wallmer end ====== */
 
 /* ===== one-place start ===== */
-.one-place {}
+.one-place {
+    width: 100%;
+}
 
 .one-place-title {
     margin-top: 103px;
 }
 
 .one-place-content {
-    padding-right: 37px;
-    padding-left: 41px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     position: relative;
-    min-height: 812px;
+    /* min-height: 812px; */
+    padding-right: 37px;
+    padding-left: 41px;
 }
 
 .one-place-content::after {
@@ -1595,7 +1656,11 @@ header {
 /* ===== one-place start ===== */
 
 
-.start-following {}
+.start-following {
+    width: 100%;
+    padding-right: 41px;
+    padding-left: 39px;
+}
 
 .start-following-title {
     margin-top: 56px;
@@ -1618,11 +1683,37 @@ header {
     display: flex;
 }
 
+.abxolute1024 {
+    position: relative;
+}
+
 .slider-track {
     display: flex;
     transition: transform 0.3s ease;
     /* margin: 0 -10px; //Отступы между блоками */
     width: 100%;
+}
+
+#delete-wigth1-more-then-1440 {
+    display: none;
+}
+
+#delete-wigth2-more-then-1440 {
+    display: none;
+}
+
+.slider-item .delete-wigth-more-then-1440 {
+    display: none;
+}
+
+.break-colum {
+    display: none;
+}
+
+.media-display-1440 {
+    display: block;
+    flex-basis: 100%;
+    width: 0;
 }
 
 .slider-item {
@@ -1650,16 +1741,22 @@ header {
 
 .slider-button-prev {
     left: 10px;
+    z-index: 3;
+}
+
+.one-place-abs-display1,
+.one-place-abs-display2 {
+    display: none;
 }
 
 .slider-button-next {
     right: 10px;
+    z-index: 3;
 }
 
 
 
 .content-slider-block {
-
     width: 410px;
     height: 246px;
     background: #191A2D;
@@ -1740,7 +1837,7 @@ header {
 
 .Statistic-Ready-to-start-baground-absolute {
     position: absolute;
-    top: 4548px;
+    top: 4545px;
     background: linear-gradient(180deg, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0.01%, rgba(28, 29, 58, 0.12) 41.35%, #191A2D 95.63%);
     height: 406px;
     width: 100%;
@@ -1748,6 +1845,7 @@ header {
 }
 
 .Ready-to-start {
+    width: 100%;
     margin-top: 80px;
     position: relative;
     display: flex;
@@ -1757,6 +1855,7 @@ header {
 .Ready-to-start-content {
     margin-top: 27px;
     text-align: center;
+    position: relative;
 }
 
 .Ready-to-start-title {
@@ -1799,15 +1898,15 @@ header {
 
 .Ready-to-start-absolute-undertitle {
     position: absolute;
-    top: 10px;
-    left: 370px;
+    top: -17px;
+    left: 34px;
     z-index: -1;
 }
 
 .Ready-to-start-absolute-1 {
     position: absolute;
     top: 63px;
-    left: 1px;
+    left: 0px;
 }
 
 .Ready-to-start-absolute-2 {
@@ -1820,6 +1919,7 @@ header {
 
 /* ===== footer start===== */
 footer {
+    width: 100%;
     margin-top: 92px;
     padding-left: 43px;
     padding-right: 41px;
@@ -1857,6 +1957,11 @@ footer {
     line-height: 26px;
 }
 
+.Ready-to-start-absolute-6,
+.Ready-to-start-absolute-7,
+.Statistic-Triangle-768{
+    display: none;
+}
 .footer-div-Company ul,
 .footer-div-partners ul,
 .footer-div-Legal ul,

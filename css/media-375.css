@@ -1,0 +1,913 @@
+@media (max-width: 663px) and (min-width: 375px) {
+    .footer-div-Legal,
+    .footer-div-Contact-support {
+        margin-top: 56px !important;
+    }
+   .breake-line{
+    display: block;
+    flex-basis: 100%;
+    width: 0px;
+   }
+   .footer-div-Contact-support {
+    margin-left: 8px;
+   }
+    
+}
+
+@media (max-width: 767px) and (min-width: 723px){
+    .Statistic-followers-baground-absolute{
+        top: 5078px;
+        height: 861px;
+        background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 375px) {
+   
+    .Statistic-aboutUs-baground-absolute{
+        top: 639px;
+        height: 541px;
+    }
+    .main-container {
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    header {
+        padding: 0px 16px;
+    }
+
+    .logo a img {
+        width: 120px;
+        height: 24.348px;
+    }
+
+    .nav-icon-5 {
+        width: 24px;
+        height: 7px;
+    }
+
+    .nav-icon-5 span {
+        height: 0.5px;
+    }
+
+    .Where-span {
+
+        display: block;
+
+    }
+
+    .preview-Title {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .sub-Title-preview {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        width: 234px;
+        margin-top: 12px;
+    }
+
+    .photo-profile {
+        width: 486px;
+        height: 311px;
+    }
+
+    .photo-profile {
+        display: none;
+    }
+
+    .photo-profile-375 {
+        display: block;
+        border-radius: 8px;
+border: 5px solid #162348;
+box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
+    }
+
+    .Photo-profile {
+        margin-top: 25px;
+    }
+
+    .Mainly-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Mainly-buttons button {
+        width: 343px;
+        height: 40px;
+
+
+        margin: 0 auto;
+    }
+
+    .Mainly-buttons button:first-child {
+        margin-right: 0px;
+    }
+
+    .Mainly-buttons button:last-child {
+        margin-top: 16px;
+    }
+
+    .Statistic-followers {
+        flex-direction: column;
+    }
+
+    .Statistic-followers div {
+        margin-top: 48px;
+    }
+
+    .Statistic-followers div:first-child {
+        margin-top: 51px;
+    }
+
+    .Statistic-followers div p:first-child {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .Statistic-followers div p:last-child {
+        font-size: 24px;
+        line-height: 42px;
+        margin-top: 0px;
+    }
+
+
+    .becoming-trusted {
+        margin-top: 15px;
+        padding: 0px 16px;
+    }
+
+    .becoming-trusted-title {
+        font-size: 24px;
+        width: 343px;
+        line-height: 24px;
+    }
+
+    .becoming-trusted-content {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .becoming-trusted-content div:last-child {
+        display: block;
+        order: 1;
+        height: 350px;
+
+    }
+
+    .becoming-trusted-content div:first-child {
+        display: block;
+        order: 2;
+    }
+
+    .becoming-trusted-absolute-cost-follower {
+        display: none !important;
+    }
+
+    .becoming-trusted-absolute-end img {
+        top: -113px;
+        right: -171px;
+    }
+
+    .becoming-trusted-content div {
+        width: auto;
+    }
+
+    .becoming-trusted-list li {
+        margin: 24px 0px;
+    }
+
+    .becoming-trusted-content div:first-child button {
+        width: 343px;
+        height: 40px;
+        display: block;
+        margin: 0 auto ;
+        margin-top: 40px;
+    }
+
+    .media-about-us-title {
+        margin-top: 56px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .media-about-us {
+        width: 100%;
+    }
+
+    .media-about-us-conteiner div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-COINTELEGRAPH,
+    .div-Bloomberg {
+        margin-left: 0px;
+    }
+
+    .div-COINTELEGRAPH {
+        margin-top: 70px;
+    }
+
+    .div-Bloomberg {
+        margin-top: 82px;
+    }
+
+    .div-Investing {
+        margin-top: 77px;
+    }
+
+    .div-CoinDesk {
+        margin-top: 70px;
+        margin-left: 0px;
+    }
+
+    .media-about-us-conteiner::before {
+        left: 30px;
+    }
+
+    .div-CryptoDaily {
+        display: block !important;
+    }
+
+    .div-CryptoDaily {
+        width: 222px;
+        height: 74px;
+        margin-top: 60px;
+    }
+
+    .media-about-us-conteiner::after {
+        right: 30px;
+    }
+
+    .Wallmer-title {
+        width: 268px;
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+
+    .accordion {
+        width: 342px;
+    }
+
+    .accordion .item,
+    .accordion .item:first-child {
+        width: 342px;
+        border-radius: 8px;
+    }
+
+    .accordion-button {
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .accordion-content {
+        height: 176px;
+        font-size: 14px;
+    }
+
+    .accordion .item {
+        margin-bottom: 0px;
+    }
+
+    .Try-Demo-Button {
+        margin-top: 16px;
+        width: 343px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .media-about-us-title one-place-title {
+        margin-top: 56px;
+    }
+
+    .one-place-content::before,
+    .one-place-content::after {
+        content: '';
+    }
+
+    .media-about-us-title start-following-title {
+        margin-top: 48px;
+    }
+
+    .abxolute1024 {
+        margin-top: 32px;
+    }
+
+    .content-slider-block {
+        width: 336px;
+        height: 246px;
+        border-radius: 8px;
+        border: 4px solid #544FFD;
+    }
+
+    .slider-container {
+        transform: translateX(-453px);
+    }
+
+    .percent {
+        right: -80px;
+    }
+
+    .slider-button-next {
+        right: 33px;
+    }
+
+    .slider-button-prev {
+        left: 33px;
+    }
+
+    .Ready-to-start {
+        margin-top: 0px;
+    }
+
+    .Ready-to-start-content {
+        margin-top: 86px;
+    }
+
+    .Ready-to-start-title {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .Ready-to-start-new-way {
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .Ready-to-start-ready {
+        margin-top: 0px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .Ready-to-start-absolute-1-375 {
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .Ready-to-start-absolute-2-375 {
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .Ready-to-start-absolute-6,
+    .Ready-to-start-absolute-7 {
+        display: none;
+    }
+
+    .Ready-to-start-absolute-3 {
+        width: 431px;
+        height: 365px;
+        top: -191px;
+        left: -78px;
+        transform: rotate(-180deg);
+    }
+
+    footer {
+        margin-top: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer-div-Company p,
+    .footer-div-partners p,
+    .footer-div-Legal p,
+    .footer-div-Contact-support p,
+    .footer-div-Contact-Follow p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .footer-div-Company li,
+    .footer-div-partners li,
+    .footer-div-Legal li,
+    .footer-div-Contact-support li,
+    .footer-div-Contact-Follow li {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .break-colum {
+        display: none;
+    }
+
+    .footer-div-Contact-support,
+    .footer-div-Contact-Follow {
+        margin-top: 0px;
+    }
+
+    
+    .footer-div-Contact-Follow {
+        margin-top: 42px;
+    }
+
+    .footer-div-Contact-Follow div a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .Copyright {
+        margin: 0 auto;
+        margin-top: 49px;
+        margin-bottom: 15px;
+        width: 228px;
+    }
+
+    .Wallmer-content-left {
+        width: 343px;
+        height: 262px;
+    }
+
+    .Wallmer-content-left-circles {
+        top: -72px;
+        left: 2px;
+        width: 492px;
+        height: 365px;
+    }
+
+    .Wallmer-wind-1 .element1,
+    .Wallmer-content-left-window,
+    .Wallmer-wind-3 .element1,
+    .Wallmer-wind-4 .element1,
+    .Wallmer-wind-5 .element1 {
+        margin-left: 27px;
+        margin-top: -12px;
+        width: 263px;
+        height: 191px;
+    }
+
+    .Wallmer-wind-1 .element2 {
+        top: 12px;
+        right: -394px;
+        width: 320px;
+        height: 217px;
+    }
+
+    .Wallmer-wind-1 .element3 {
+        top: -76px;
+        right: -169px;
+        width: 95px;
+        height: 368px;
+    }
+
+    .Wallmer-content-left-window {
+        margin-left: 44px;
+        margin-top: 45px;
+        width: 224px;
+        height: 191px;
+    }
+
+    .Wallmer-absolute-BTC {
+        top: 129px;
+        right: 96px;
+        width: 55px;
+        height: 19px;
+        border-radius: 4px;
+        padding-bottom: 3px;
+    }
+
+    .iconBTC img:first-child {
+        width: 11px;
+        height: 11px;
+    }
+
+    .iconBTC img:last-child {
+        top: 5px;
+        left: -9px;
+        width: 29px;
+        height: 9px;
+    }
+
+    .iconBTC img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .Wallmer-absolute-BTC p {
+        font-size: 11px;
+        margin-left: 7px;
+    }
+
+    .Wallmer-absolute-Sell-ETH {
+        right: -7px;
+        bottom: 13px;
+        width: 65px;
+        height: 19px;
+        font-size: 10px;
+        border-radius: 4px;
+    }
+
+    .Wallmer-absolute-Buy-BTC {
+        border-radius: 4px;
+        width: 65px;
+        height: 19px;
+        top: 44px;
+        right: 66px;
+        font-size: 10px;
+    }
+
+    .Wallmer-absolute-user {
+        width: 129px;
+        height: 31px;
+        top: 182px;
+        right: 111px;
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+
+    .Wallmer-absolute-user-inform-img img {
+        width: 24px;
+        height: 24px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .Wallmer-absolute-user-inform-p p:last-child {
+        font-size: 5px;
+        margin-top: 5px;
+    }
+
+    .Wallmer-absolute-user-inform-p {
+        margin-left: 5px;
+        line-height: 8px;
+        font-size: 8px;
+    }
+
+    .Wallmer-absolute-user-bell {
+        margin-top: 5px;
+    }
+
+    .Wallmer-absolute-user-bell img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Wallmer-absolute-user-bell img:last-child {
+        width: 15px;
+        height: 15px;
+        top: 3px;
+        right: 3px;
+    }
+
+    .Wallmer-wind-3 .element1 {
+        margin-left: 57px;
+        margin-top: -12px;
+        width: 237px;
+        height: 197px;
+    }
+
+    .Wallmer-wind-3 .element2 {
+        width: 135px;
+        top: 58px;
+        left: 200px;
+    }
+
+    .Wallmer-wind-3 .element3 {
+        padding: 3px 5px 3px 3px;
+        top: 53px;
+        left: 62px;
+        width: 88px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+    #email-img {
+        margin-top: 0px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .Wallmer-wind-3 .element3 p {
+        margin-left: 3px;
+        font-size: 3px;
+    }
+
+    .Team {
+        font-size: 7px;
+        line-height: 11px;
+    }
+
+    .notification {
+        font-size: 7px;
+        line-height: 5px;
+    }
+
+    .Wallmer-wind-3 .element4 {
+        padding: 11px 6px 11px 6px;
+        border-radius: 4px;
+        top: 193px;
+        left: 62px;
+        width: 94px;
+        height: 19px;
+    }
+
+    #ring-img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Wallmer-wind-3 .element4 p {
+        font-size: 6px;
+    }
+
+    .Wallmer-wind-4 .element1 {
+        margin-left: 40px;
+        margin-top: -17px;
+        width: 224px;
+        height: 197px;
+    }
+
+    .Wallmer-wind-4 .element6 {
+        top: 49px;
+        left: 144px;
+        width: 65px;
+        height: 17px;
+        border-radius: 4px;
+        padding: 4px 1px 4px 3px
+    }
+
+    #pluss {
+        width: 13px;
+        height: 10px;
+    }
+
+    .Wallmer-wind-4 .element6 p {
+        font-size: 8px;
+    }
+
+    .Wallmer-wind-4 .element2 {
+        border-radius: 4px;
+        top: 65px;
+        left: 44px;
+        width: 70px;
+        height: 33px;
+        padding: 3px 4px 4px 3px;
+    }
+
+    .Wallmer-wind-4 .element2 p:first-child {
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .Wallmer-wind-4 .element2 p:last-child {
+        font-size: 8px;
+        line-height: 21px;
+    }
+
+    .Wallmer-wind-4 .element3 {
+        padding: 3px 3px 3px 4.67px;
+        top: 157px;
+        left: 49px;
+        width: 66px;
+        height: 21px;
+        font-size: 14px;
+        border-radius: 4px;
+        font-size: 8px;
+    }
+
+    #Red-cluss {
+        width: 14px;
+        height: 20px;
+    }
+
+    .Wallmer-wind-4 .element5 {
+        top: 59px;
+        border-radius: 4px;
+        left: 245px;
+        width: 113px;
+        color: #3571FD;
+        height: 23px;
+        width: 58px;
+        font-size: 8px;
+        padding: 8px 10px 10px 8px;
+    }
+
+    #share {
+        width: 12px;
+        height: 12px;
+    }
+
+    .Wallmer-wind-4 .element4 {
+        border-radius: 4px;
+        top: 104px;
+        left: 247px;
+        width: 65px;
+        height: 19px;
+        padding: 8px 6px 8px 3px;
+        font-size: 8px;
+    }
+
+    .Wallmer-wind-4 .element4 img {
+        width: 14px;
+        height: 14px;
+    }
+
+    .Mainly-absolute-users-followers {
+        width: 42px;
+        height: 37px;
+        top: 32px;
+        right: -29px;
+        border-radius: 4px;
+        padding-bottom: 23px;
+    }
+
+    .Mainly-absolute-users-followers img {
+        width: 9px;
+        height: 18px;
+        margin-top: 15px
+    }
+
+    .Mainly-absolute-users-followers p {
+        font-size: 8px;
+    }
+
+    .Mainly-absolute-winding-line {
+        top: -37px;
+        right: -40px;
+    }
+
+    .Mainly-absolute-winding-line svg {
+        width: 38px;
+        height: 19px;
+
+    }
+
+    .Mainly-absolute-users-followers p:last-child {
+        font-size: 8px;
+        margin-bottom: 3px;
+        line-height: 11px;
+    }
+
+    .Mainly-absolute-copy {
+        top: -9px;
+        right: -36px;
+        font-size: 12px;
+        letter-spacing: -0.36px;
+    }
+
+    .Triangle-786 {
+        display: none;
+    }
+.Triangle-375{
+    display: block;
+    position: absolute;
+    width: 100%;
+    /* height: 432px; */
+    z-index: -1;
+}
+    .Mainly-absolute-box-lilac {
+        display: none;
+    }
+
+    .Mainly-absolute-Earn {
+        top: 131px;
+        right: -38px;
+        font-size: 12px;
+    }
+
+    .Mainly-absolute-data {
+        top: 249px;
+        right: -30px;
+        width: 17.678px;
+        height: 17.678px;
+    }
+
+    .Mainly-absolute-partfolio-copied {
+        width: 67px;
+        height: 17px;
+        transform: rotate(-9.906deg);
+        top: 190px;
+        right: -38px;
+        border: none;
+        border-radius: 4px;
+        padding: 3px 4px 3px 2px;
+
+    }
+
+    .Mainly-absolute-partfolio-copied p {
+        font-size: 6px;
+        letter-spacing: -0.42px;
+        margin-top: -2px;
+        margin-left: 5px;
+    }
+
+    .Mainly-absolute-partfolio-copied svg {
+        width: 14px;
+        height: 14px;
+        margin-top: 0px;
+    }
+
+    .Mainly-absolute-left-winding-line {
+        top: -48px;
+        left: -28px;
+    }
+
+    .Mainly-absolute-left-winding-line svg {
+        width: 34.992px;
+        height: 32.998px;
+    }
+
+    .Mainly-absolute-left-Share {
+        transform: rotate(2.042deg);
+        top: 5px;
+        left: -49px;
+    }
+
+    .Mainly-absolute-left-Share p {
+        font-size: 10px;
+        letter-spacing: -0.3px;
+        position: relative;
+    }
+
+    .Mainly-absolute-left-Share p::before {
+        position: absolute;
+        top: 37px;
+        left: 16px;
+        width: 18px;
+        height: 15.339px;
+    }
+
+    .Mainly-absolute-left-Track {
+        width: 41.978px;
+        height: 12.673px;
+        top: 101px;
+        left: -39px;
+        font-size: 11px;
+        transform: rotate(-12.717deg);
+    }
+
+    .Mainly-absolute-left-To-the-Moon {
+        display: none;
+    }
+
+    .Mainly-absolute-statistics {
+        display: none;
+    }
+
+    .Mainly-absolute-left-social {
+        top: 200px;
+        left: -37px;
+        width: 20.821px;
+        height: 19.03px;
+        transform: rotate(-16.874deg);
+    }
+
+    .display-Mainly-absolute-left-Added-to-Watchlist {
+        top: 268px;
+        left: -43px;
+    }
+
+    .display-Mainly-absolute-left-Added-to-Watchlist img {
+        width: 59px;
+        height: 20px;
+    }
+
+    .header-nav li{
+        font-size: 22px;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 723px) and (min-width: 375px){
+    .Statistic-followers-baground-absolute{
+        top: 5079px;
+        height: 861px;
+        background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
+    }
+}
+@media (max-width: 704px) and (min-width: 375px){
+    .Statistic-followers-baground-absolute{
+        top: 6277px;
+    } 
+}
+
+@media (max-width: 663px) and (min-width: 375px){
+    .Statistic-followers-baground-absolute{
+        top: 6441px;
+        height: 861px;
+        background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
+  
+    }
+}
