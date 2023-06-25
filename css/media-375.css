@@ -906,8 +906,21 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
     }
 }
 
-
-
+@media (max-width: 374px) and (min-width:  353px) {
+    .Statistic-followers-baground-absolute {
+        top: 6456px;
+    }
+}
+@media (max-width: 352px) and (min-width:  340px) {
+    .Statistic-followers-baground-absolute {
+        top: 6483px;
+    }
+}
+@media (max-width: 339.5px) and (min-width: 320px) {
+    .Statistic-followers-baground-absolute{
+        top: 6613px;
+    }
+}
 @media (max-width: 375px) and (min-width: 320px) {
 
 .Triangle-375{
@@ -959,9 +972,7 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
 .Wallmer-wind-3 .element2{
     left: 180px;
 }
-.Statistic-followers-baground-absolute{
-    top: 6613px;
-}
+
 
 .Mainly-absolute-copy{
     right: -24px;
