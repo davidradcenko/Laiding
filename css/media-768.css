@@ -1,4 +1,7 @@
 @media (max-width: 1024px)  {
+    .burger-conteiner-open{
+        top: 45px;
+    }
     /* and (min-width: 768px) */
     .main-container {
         /* width: 768px; */

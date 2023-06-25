@@ -1,4 +1,4 @@
-@media (max-width: 663px) and (min-width: 375px) {
+@media (max-width: 663px) and (min-width: 320px) {
     .footer-div-Legal,
     .footer-div-Contact-support {
         margin-top: 56px !important;
@@ -14,7 +14,7 @@
     
 }
 
-@media (max-width: 767px) and (min-width: 723px){
+@media (max-width: 767px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
         top: 5100px;
         height: 861px;
@@ -22,7 +22,7 @@
     }
 }
 
-@media (max-width: 767px) and (min-width: 375px) {
+@media (max-width: 767px) and (min-width: 320px) {
    
     .Statistic-aboutUs-baground-absolute{
         top: 639px;
@@ -882,32 +882,111 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
     .header-nav li{
         font-size: 22px;
     }
-
-
-
-
-
-
 }
 
-@media (max-width: 723px) and (min-width: 375px){
+@media (max-width: 723px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
         top: 5093px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
 }
-@media (max-width: 704px) and (min-width: 375px){
+@media (max-width: 704px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
         top: 6299px;
     } 
 }
 
-@media (max-width: 663px) and (min-width: 375px){
+@media (max-width: 663px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
         top: 6460px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
   
     }
+}
+
+
+
+@media (max-width: 375px) and (min-width: 320px) {
+
+.Triangle-375{
+    top: -27px;
+}
+.Mainly-buttons button{
+    width: 304px;
+}
+.becoming-trusted{
+    padding: 0px 7px;
+}
+.becoming-trusted-content div:first-child button{
+    width: 304px;
+}
+.becoming-trusted-title{
+    width: 311px;
+}
+.Wallmer-content-left{
+    width: 320px;
+    height: 244px;
+}
+
+.accordion .item, .accordion .item:first-child{
+    width: 310px;
+}
+.accordion{
+    width: 100%;
+    align-items: center;
+
+}
+.accordion-button{
+    margin: 0 auto;
+}
+.Try-Demo-Button{
+    width: 310px;
+}
+.accordion-content{
+    height: 189px;
+}
+.Wallmer-wind-3 .element1{
+    margin-left: 37px;
+}
+.Wallmer-wind-3 .element4{
+    left: 43px;
+}
+.Wallmer-wind-3 .element3{
+    left: 42px;
+}
+.Wallmer-wind-3 .element2{
+    left: 180px;
+}
+.Statistic-followers-baground-absolute{
+    top: 6613px;
+}
+
+.Mainly-absolute-copy{
+    right: -24px;
+}
+.Mainly-absolute-winding-line{
+    right: -26px;
+}
+.Mainly-absolute-Earn{
+    right: -25px;
+}
+.Mainly-absolute-partfolio-copied{
+    right: -25px;
+}
+.Mainly-absolute-left-Share p{
+    left: -28px;
+}
+.Mainly-absolute-left-Track{
+    left: -26px;
+}
+.Mainly-absolute-left-social{
+    left: -27px;
+}
+.display-Mainly-absolute-left-Added-to-Watchlist{
+    left: -22px;
+}
+
+    
 }
