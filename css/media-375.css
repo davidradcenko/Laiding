@@ -637,10 +637,10 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
     .Wallmer-wind-4 .element6 {
         top: 49px;
         left: 144px;
-        width: 65px;
+        width: 68px;
         height: 17px;
         border-radius: 4px;
-        padding: 4px 1px 4px 3px
+        padding: 4px 3px 4px 3px;
     }
 
     #pluss {
@@ -708,7 +708,7 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
         border-radius: 4px;
         top: 104px;
         left: 247px;
-        width: 65px;
+        width: 69px;
         height: 19px;
         padding: 8px 6px 8px 3px;
         font-size: 8px;
