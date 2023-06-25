@@ -786,6 +786,7 @@ width: 695px;
 
 .div-Forbes:hover {
     background-image: url('../img/about-us/Forbes-hover.png');
+    transition: 0.3s;
 }
 
 
@@ -805,6 +806,7 @@ width: 695px;
 
 .div-Bloomberg:hover {
     background-image: url('../img/about-us/Bloomberg-hover.png');
+    transition: 0.3s;
 }
 
 .div-COINTELEGRAPH {
@@ -821,6 +823,7 @@ width: 695px;
 .div-COINTELEGRAPH:hover {
     background-image: url('../img/about-us/COINTELEGRAPH-hover.png');
     background-size: auto;
+   
 }
 
 .div-Investing {
@@ -833,6 +836,7 @@ width: 695px;
 
 .div-Investing:hover {
     background-image: url('../img/about-us/Investing-hover.png');
+    transition: 0.3s;
 }
 
 .div-CoinDesk {
@@ -845,6 +849,7 @@ width: 695px;
 
 .div-CoinDesk:hover {
     background-image: url('../img/about-us/CoinDesk-hover.png');
+    transition: 0.3s;
 }
 
 .div-CryptoDaily {
@@ -857,6 +862,7 @@ width: 695px;
 
 .div-CryptoDaily:hover {
     background-image: url('../img/about-us/CryptoDaily-hover.png');
+    transition: 0.3s;
 }
 
 .next-line {
