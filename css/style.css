@@ -106,6 +106,7 @@ body {
     font-family: 'SF Pro Display', sans-serif;
     color: var(--bg-white);
     background-color: var(--bg-background);
+    overflow-x: hidden;
 }
 
 * {
@@ -154,7 +155,7 @@ ul {
     position: relative;
     width: 1440px;
     margin: 0 auto;
-    border: 0.1px solid red;
+    /* border: 0.1px solid red; */
     overflow: hidden;
 }
 

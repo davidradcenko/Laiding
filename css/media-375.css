@@ -16,7 +16,7 @@
 
 @media (max-width: 767px) and (min-width: 723px){
     .Statistic-followers-baground-absolute{
-        top: 5078px;
+        top: 5100px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
@@ -30,7 +30,6 @@
     }
     .main-container {
         width: 100%;
-        border: 1px solid red;
     }
 
     header {
@@ -326,7 +325,8 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
     }
 
     .Ready-to-start {
-        margin-top: 0px;
+        margin-top: 21px;
+        /* margin-top: 0px; */
     }
 
     .Ready-to-start-content {
@@ -892,20 +892,20 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
 
 @media (max-width: 723px) and (min-width: 375px){
     .Statistic-followers-baground-absolute{
-        top: 5079px;
+        top: 5093px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
 }
 @media (max-width: 704px) and (min-width: 375px){
     .Statistic-followers-baground-absolute{
-        top: 6277px;
+        top: 6299px;
     } 
 }
 
 @media (max-width: 663px) and (min-width: 375px){
     .Statistic-followers-baground-absolute{
-        top: 6441px;
+        top: 6460px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
   
