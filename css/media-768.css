@@ -104,7 +104,7 @@
     }
 
     .becoming-trusted-list li {
-        margin: 32px 0px;
+        margin: 32px 5px;
     }
 
     .becoming-trusted {
@@ -235,11 +235,12 @@
     }
 
     .Wallmer-content {
-        margin-top: 32px;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 0 auto;
+        margin-top: 32px;
     }
 
     .Wallmer-content-left-circles {
@@ -694,7 +695,9 @@
 
 
     .Statistic-Ready-to-start-baground-absolute {
-        display: none;
+        /* display: none; */
+        top: 4471px;
+        z-index: -3;
     }
 
     footer {

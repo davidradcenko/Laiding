@@ -301,7 +301,11 @@
 
 @media (max-width: 1300px) and (min-width: 1024.60px) {
     .becoming-trusted-absolute-end img {
-        opacity: 0.3;
+        /* opacity: 0.3; */
+        width: 701px;
+        height: 674px;
+        top: -113px;
+        right: -175px;
     }
 }
 @media (max-width: 1286px) and (min-width: 1024.60px) {

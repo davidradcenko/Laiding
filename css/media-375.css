@@ -16,7 +16,7 @@
 
 @media (max-width: 767px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
-        top: 5100px;
+        top: 5132px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
@@ -31,7 +31,10 @@
     .main-container {
         width: 100%;
     }
-
+    .Statistic-Ready-to-start-baground-absolute{
+        top: 5074px;
+        z-index: -3;
+    }
     header {
         padding: 0px 16px;
     }
@@ -305,7 +308,7 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
         width: 336px;
         height: 246px;
         border-radius: 8px;
-        border: 4px solid #544FFD;
+        /* border: 4px solid #544FFD; */
     }
 
     .slider-container {
@@ -370,11 +373,11 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
     }
 
     .Ready-to-start-absolute-3 {
-        width: 431px;
-        height: 365px;
-        top: -191px;
-        left: -78px;
-        transform: rotate(-180deg);
+        width: 388px;
+        height: 334px;
+        top: -96px;
+        left: -59px;
+        /* transform: rotate(-180deg); */
     }
 
     footer {
@@ -886,20 +889,23 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
 
 @media (max-width: 723px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
-        top: 5093px;
+        top: 5125px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
 }
 @media (max-width: 704px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
-        top: 6299px;
+        top: 6331px;
     } 
+    .Statistic-Ready-to-start-baground-absolute{
+        top: 6276px;
+    }
 }
 
 @media (max-width: 663px) and (min-width: 320px){
     .Statistic-followers-baground-absolute{
-        top: 6460px;
+        top: 6492px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
   
@@ -908,18 +914,23 @@ box-shadow: 0px 0px 4px 5px rgba(53, 113, 253, 0.10);
 
 @media (max-width: 374px) and (min-width:  353px) {
     .Statistic-followers-baground-absolute {
-        top: 6456px;
+        top: 6488px;
     }
 }
 @media (max-width: 352px) and (min-width:  340px) {
     .Statistic-followers-baground-absolute {
-        top: 6483px;
+        top: 6515px;
     }
 }
 @media (max-width: 339.5px) and (min-width: 320px) {
     .Statistic-followers-baground-absolute{
-        top: 6613px;
+        top: 6645px;
     }
+}
+@media (max-width: 400px) and (min-width: 320px) {
+.becoming-trusted-absolute-end img{
+    right: -216px;
+}
 }
 @media (max-width: 375px) and (min-width: 320px) {
 
