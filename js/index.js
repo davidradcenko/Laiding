@@ -14,7 +14,8 @@ buttons.forEach((button, index) => {
     if (!isActive) {
       closeAllAccordions();
       item.classList.add('active');
-      button.querySelector('.accordion-icon').src = "./img/Wallmer/minus.svg";
+      // button.querySelector('.accordion-icon').src = "./img/Wallmer/minus.svg";
+      button.querySelector('.accordion-icon').classList.add('Block-None');
       updateMainImage(index);
     } else {}
   });
@@ -24,7 +25,10 @@ function closeAllAccordions() {
   const items = document.querySelectorAll('.item');
   items.forEach(item => {
     item.classList.remove('active');
+    item.querySelector('.accordion-icon').classList.remove('Block-None');
+    // item.querySelector('.accordion-icon').classList.add('Block-display');
     item.querySelector('.accordion-icon').src = "./img/Wallmer/add.svg";
+    
   });
 }
 
@@ -75,7 +79,8 @@ function resetMainImage() {
   mainImage.alt = 'Изображение';
 }
 document.querySelector('.item:first-child').classList.add('active');
-document.querySelector('.item:first-child .accordion-icon').src = "./img/Wallmer/minus.svg";
+// document.querySelector('.item:first-child .accordion-icon').src = "./img/Wallmer/minus.svg";
+document.querySelector('.item:first-child .accordion-icon').classList.add('Block-None');
 updateMainImage(0);
 
 

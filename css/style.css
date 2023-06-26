@@ -267,6 +267,7 @@ header {
     font-family: "SF Pro Display-700", sans-serif;
     font-size: 50px;
     line-height: 70px;
+    font-variant: all-small-caps;
 }
 /* .Where-span{
     display: none;
@@ -1457,7 +1458,12 @@ width: 695px;
     color: #F6F6F7;
     font-family: "SF Pro-400", sans-serif;
 }
-
+.Block-None{
+    display: none;
+}
+.Block-display{
+    display: block;
+}
 .one-place-content-block .one-place-content-block-img {
     width: 384px;
     height: 200px;
@@ -1729,6 +1735,7 @@ width: 695px;
 }
 
 .slider-button {
+    padding-top: 4px;
     position: absolute;
     top: 50%;
     height: 38px;
@@ -1926,7 +1933,7 @@ width: 695px;
 /* ===== footer start===== */
 footer {
     width: 100%;
-    margin-top: 92px;
+    margin-top: 123px;
     padding-left: 43px;
     padding-right: 41px;
 }
