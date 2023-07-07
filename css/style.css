@@ -21,6 +21,7 @@
     font-weight: 300;
     font-style: normal;
 }
+
 @font-face {
     font-family: "SF Pro Display-600";
     src: url('../fonts/SF Pro Display/600/SF-Pro-Display-Semibold.woff2') format('woff2'),
@@ -28,6 +29,7 @@
     font-weight: 600;
     font-style: normal;
 }
+
 @font-face {
     font-family: "SF Pro Display-700";
     src: url('../fonts/SF Pro Display/700/SF-Pro-Display-Bold.woff2') format('woff2'),
@@ -189,14 +191,17 @@ header {
 .header-menu {
     width: 100%;
 }
-.Triangle-786{
+
+.Triangle-786 {
     display: none;
 }
-.burger-conteiner{
+
+.burger-conteiner {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .header-nav {
     display: flex;
     align-items: center;
@@ -246,8 +251,80 @@ header {
     top: 0px;
     width: 1440px;
     height: 563;
+    display: none;
 }
 
+/*===== banner start =====*/
+.Banner-info {
+    margin-top: 21px;
+    width: 100%;
+    height: 100px;
+    background-color: #162348;
+    border: 1px solid rgba(25, 218, 140, 1);
+    border-right: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner-info-conteiner {
+    width: 1440px;
+    height: 100px;
+}
+.Banner-info-left-side,
+.Banner-info-rigth-side{
+    height: 100px;
+}
+.Banner-info-left-side p:first-child {
+    font-family: "SF Pro Display-700", sans-serif;
+    margin-left: 24px;
+    margin-top: 16px;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.78px;
+    font-variant: small-caps;
+}
+.Banner-info-left-side p:first-child span{
+    font-variant: normal;
+}
+.Banner-info-left-side p:last-child {
+    font-family: "SF Pro Display-400", sans-serif;
+    color: #9AE3FF;
+    font-size: 22px;
+    line-height: 35px;
+    margin-left: 81px;
+    letter-spacing: 0.78px;
+}
+.Banner-info-rigth-side{
+    position: relative;
+}
+.Banner-info-rigth-side button{
+    width: 240px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: inherit;
+    border-radius: 8px;
+    font-family: "SF Pro Display-600";
+    border: 2px solid #32E19C;
+    color: #32E19C;
+    font-size: 18px;
+}
+.Banner-content {
+    width: 1361px;
+    height: 100px;
+    margin-left: 38px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Banner-vector{
+    position: absolute;
+    top: 25px;
+    left: -155px;
+}
+/*===== banner end =====*/
 
 /*====== Mainly Start =====*/
 
@@ -255,7 +332,7 @@ header {
 .Mainly {
     /* margin: 0 auto; */
     width: 100%;
-    margin-top: 12px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,20 +346,24 @@ header {
     line-height: 70px;
     font-variant: all-small-caps;
 }
+
 /* .Where-span{
     display: none;
 } */
-.photo-profile-375{
+.photo-profile-375 {
     display: none;
 }
+
 .Ready-to-start-absolute-1-375,
 .Ready-to-start-absolute-2-375,
-.breake-line{
+.breake-line {
     display: none;
 }
-.Triangle-375{
+
+.Triangle-375 {
     display: none;
 }
+
 .sub-Title-preview {
     font-family: "SF Pro Display-400", sans-serif;
     font-size: 20px;
@@ -294,10 +375,12 @@ header {
     margin-top: 31px;
     position: relative;
 }
-.photo-profile{
-width: 695px;
+
+.photo-profile {
+    width: 695px;
     height: 444px;
 }
+
 /* absolute imgs */
 .Mainly-absolute-users-followers {
     width: 105px;
@@ -491,9 +574,11 @@ width: 695px;
     font-size: 24px;
     font-style: normal;
 }
-.icon nav-icon-5{
+
+.icon nav-icon-5 {
     display: none;
 }
+
 .Mainly-absolute-left-Share p::before {
     content: url('../img/Mainly-block/left side/Shape.svg');
     margin-right: 6.5px;
@@ -581,6 +666,8 @@ width: 695px;
 /* end adsolute elements */
 .Mainly-buttons {
     margin-top: 37px;
+    display: flex;
+    align-items: center;
 }
 
 .Mainly-buttons button {
@@ -589,7 +676,7 @@ width: 695px;
 }
 
 .Mainly-buttons button:first-child {
-    margin-right: 80px;
+    margin-right: 31px;
     background: #162348;
     border-radius: 8px;
     color: var(--bg-button-blue);
@@ -598,10 +685,36 @@ width: 695px;
 .Mainly-buttons button:last-child {
     background: var(--bg-button-blue);
     border-radius: 8px;
+    margin-left: 34px;
     color: var(--bg-white);
 }
 
+.Mainly-looke-video{
 
+}
+[data-tooltip] {
+    position: relative;
+}
+[data-tooltip]::after {
+    content: attr(data-tooltip); 
+    position: absolute; 
+    width: 150px; 
+    left: 0; top: 0; 
+    background: #162348;
+    color: #fff; 
+    text-align: center;
+    padding: 0.3em; 
+    border: 1px solid var(--bg-button-blue);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    pointer-events: none; 
+    border-radius: 7px;
+    opacity: 0; 
+    transition: 1s; 
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1; 
+    top: 2em;
+   }
 /* ====== Mainly End ======  */
 
 
@@ -609,7 +722,7 @@ width: 695px;
 .Statistic-followers-baground-absolute {
     z-index: -1;
     position: absolute;
-    top: 701px;
+    top: 835px;
     width: 100%;
     height: 314px;
     background: linear-gradient(180deg, rgba(38, 39, 71, 0) 0%, #191A2D 54.8%, #191A2D 62.27%, rgba(25, 26, 45, 0) 95.65%);
@@ -617,7 +730,7 @@ width: 695px;
 
 .Statistic-aboutUs-baground-absolute {
     position: absolute;
-    top: 1803px;
+    top: 1938px;
     width: 100%;
     height: 520px;
     background: linear-gradient(180deg, rgba(38, 39, 71, 0) 0%, #191A2D 54.8%, #191A2D 62.27%, rgba(25, 26, 45, 0) 95.65%);
@@ -810,10 +923,10 @@ width: 695px;
 }
 
 .div-COINTELEGRAPH {
-    background-image: url('../img/about-us/COINTELEGRAPH.png') ;
+    background-image: url('../img/about-us/COINTELEGRAPH.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:    270px 69.6px;
+    background-size: 270px 69.6px;
     /* background-position-x: -37px; */
     width: 270px;
     height: 69.69px;
@@ -823,7 +936,7 @@ width: 695px;
 .div-COINTELEGRAPH:hover {
     background-image: url('../img/about-us/COINTELEGRAPH-hover.png');
     background-size: auto;
-   
+
 }
 
 .div-Investing {
@@ -877,10 +990,12 @@ width: 695px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.media-display-1280{
+
+.media-display-1280 {
     display: none !important;
 }
-.firs-line > a:nth-last-child(-n+4) {
+
+.firs-line>a:nth-last-child(-n+4) {
     margin-top: 35px;
     align-items: center;
 }
@@ -959,9 +1074,11 @@ width: 695px;
     bottom: -16px;
     left: 385px;
 }
-.display-Mainly-absolute-left-Added-to-Watchlist{
+
+.display-Mainly-absolute-left-Added-to-Watchlist {
     display: none;
 }
+
 .Wallmer-absolute-Buy-BTC {
     position: absolute;
     top: 40px;
@@ -1124,11 +1241,13 @@ width: 695px;
 
 .active .accordion-content {
     display: block;
-    
+
 }
+
 .active {
     background: var(--bg-background) !important;
 }
+
 .active .accordion-button {
     background-color: var(--bg-background);
 }
@@ -1458,12 +1577,15 @@ width: 695px;
     color: #F6F6F7;
     font-family: "SF Pro-400", sans-serif;
 }
-.Block-None{
+
+.Block-None {
     display: none;
 }
-.Block-display{
+
+.Block-display {
     display: block;
 }
+
 .one-place-content-block .one-place-content-block-img {
     width: 384px;
     height: 200px;
@@ -1833,6 +1955,12 @@ width: 695px;
     justify-content: center;
 
 }
+.Watch-video-svg:hover{
+    width: 100px;
+    fill:#19DA8C;
+    transition: 1s;
+}
+
 
 .percent span {
     /* text-align: center; */
@@ -1850,7 +1978,7 @@ width: 695px;
 
 .Statistic-Ready-to-start-baground-absolute {
     position: absolute;
-    top: 4545px;
+    top: 4584px;
     background: linear-gradient(180deg, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0%, rgba(47, 50, 117, 0) 0.01%, rgba(28, 29, 58, 0.12) 41.35%, #191A2D 95.63%);
     height: 406px;
     width: 100%;
@@ -1972,9 +2100,10 @@ footer {
 
 .Ready-to-start-absolute-6,
 .Ready-to-start-absolute-7,
-.Statistic-Triangle-768{
+.Statistic-Triangle-768 {
     display: none;
 }
+
 .footer-div-Company ul,
 .footer-div-partners ul,
 .footer-div-Legal ul,
