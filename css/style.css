@@ -291,7 +291,7 @@ header {
 .Banner-info-left-side p:last-child {
     font-family: "SF Pro Display-400", sans-serif;
     color: #9AE3FF;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 35px;
     margin-left: 81px;
     letter-spacing: 0.78px;
@@ -692,30 +692,24 @@ header {
 .Mainly-looke-video{
 
 }
-[data-tooltip] {
+.Hover-a-button{
     position: relative;
 }
-[data-tooltip]::after {
-    content: attr(data-tooltip); 
-    position: absolute; 
-    width: 100px; 
-    left: 0;
-    top: 0px; 
-    background: #162348;
-    color: #fff; 
-    text-align: center;
-    padding: 0.3em; 
-    border: 1px solid var(--bg-button-blue);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+.Hover-a-button:hover::after {
+    position: absolute;
+    content: url('../img/hover/Rectangle1013.svg'); 
+    left: 5px;
+    top: 20px;  
     pointer-events: none; 
-    border-radius: 7px;
-    opacity: 0; 
+    /* opacity: 0;  */
     transition: 1s; 
-   } 
-   [data-tooltip]:hover::after {
+    z-index: 5;
+} 
+
+[data-tooltip]:hover::after {
     opacity: 1; 
     top: 2.5em;
-   }
+}
 /* ====== Mainly End ======  */
 
 
