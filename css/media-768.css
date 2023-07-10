@@ -10,23 +10,43 @@
     }
 
     .Banner-info {
-        height: 195px;
+        height: 95px !important;
         padding: 32px;
         align-items: flex-start;
+        padding: 0px;
+    }
+    .Banner-info-conteiner{
+        height: 100%;
+    }
+    .Banner-info-rigth-side button{
+        height: 40px;
+        width: 180px;
+        margin-top: 8px;
+        font-size: 14px;
+        margin-left: 0px !important;
+    }
+    .exclusive-class,
+    .Banner-info-left-side p:last-child{
+        display: none;
     }
     .Banner-content{
         width: 100%;
         margin-left: 0px;
+        flex-direction: column;
+    }
+    .Banner-info-left-side{
+        height: auto;
     }
     .Banner-info-left-side p:first-child {
-        width: 341.5px;
-        font-size: 20px;
-        letter-spacing: 0.6px;
-        line-height: 30px;
+        /* width: 341.5px; */
+        font-size: 14px;;
+        letter-spacing: 0.42px;
+        line-height: 24px;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 8px;
     }
     .Banner-vector{
+        display: none;
         left: -97px;
     }
     .Banner-info-left-side p:last-child {
@@ -738,7 +758,7 @@
     }
     .Statistic-Ready-to-start-baground-absolute {
         /* display: none; */
-        top: 4687px;
+        top: 4587px;
         z-index: -3;
     }
 
@@ -1049,11 +1069,11 @@
 
     /* =====================================================  */
     .Statistic-followers-baground-absolute {
-        top: 761px;
+        top: 661px;
     }
 
     .Statistic-aboutUs-baground-absolute {
-        top: 1600px;
+        top: 1500px;
         height: 344px;
     }
 

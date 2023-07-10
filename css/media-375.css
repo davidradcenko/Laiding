@@ -40,7 +40,7 @@
 
     .Banner-info-left-side p:first-child {
         text-align: center;
-        font-size: 20px;
+        font-size: 14px;
         letter-spacing: 0.6px;
     }
 
@@ -61,7 +61,7 @@
     }
 
     .Statistic-followers-baground-absolute {
-        top: 5345px;
+        top: 5192px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
@@ -76,7 +76,7 @@
         left: -3px;
     }
     .Statistic-aboutUs-baground-absolute {
-        top: 890px;
+        top: 738px;
         height: 541px;
     }
 
@@ -85,8 +85,10 @@
     }
 
     .Statistic-Ready-to-start-baground-absolute {
-        top: 2475px !important;
+        background: linear-gradient(180deg, rgba(38, 39, 71, 0) 0%, #191A2D 54.8%, #191A2D 62.27%, rgba(25, 26, 45, 0) 95.65%);
+        top: 2039px !important;
         z-index: -3;
+        height: 698px;
     }
 
     header {
@@ -941,7 +943,7 @@
 
 @media (max-width: 723px) and (min-width: 320px) {
     .Statistic-followers-baground-absolute {
-        top: 5346px;
+        top: 5194px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
     }
@@ -949,17 +951,17 @@
 
 @media (max-width: 704px) and (min-width: 320px) {
     .Statistic-followers-baground-absolute {
-        top: 6553px;
+        top: 6401px;
     }
 
     .Statistic-Ready-to-start-baground-absolute {
-        top: 6276px;
+        top: 6127px;
     }
 }
 
 @media (max-width: 663px) and (min-width: 320px) {
     .Statistic-followers-baground-absolute {
-        top: 6713px;
+        top: 6561px;
         height: 861px;
         background: linear-gradient(180deg, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0%, rgba(47, 50, 117, 0.00) 0.01%, rgba(28, 29, 58, 0.12) 43.23%, #191A2D 99.98%);
 
@@ -968,10 +970,14 @@
 
 @media (max-width: 374px) and (min-width: 353px) {
     .Statistic-followers-baground-absolute {
-        top: 6708px;
+        top: 6556px;
     }
 }
-
+@media (max-width: 374px)  {
+    .Banner-info-left-side p:first-child{
+        font-size: 11px;
+    }
+}
 @media (max-width: 358px) and (min-width: 320px) {
     .Banner-info-left-side p:first-child{
         width: 282.5px;
@@ -981,7 +987,7 @@
     }
     .Banner-info-rigth-side button {
         margin-left: 40px;
-        margin-top: 51px;
+       
     }
     .Banner-info-rigth-side button{
         width: 178px;
@@ -995,7 +1001,7 @@
 
 @media (max-width: 352px) and (min-width: 340px) {
     .Statistic-followers-baground-absolute {
-        top: 6730px;
+        top: 6578px;
     }
 }
 @media (max-width: 352px) and (min-width: 320px) {
@@ -1006,7 +1012,7 @@
 }
 @media (max-width: 339.5px) and (min-width: 320px) {
     .Statistic-followers-baground-absolute {
-        top: 6863px;
+        top: 6711px;
     }
 }
 
@@ -1121,6 +1127,6 @@
 
 @media (max-width: 348px) and (min-width: 320px) {
     .Statistic-followers-baground-absolute {
-        top: 6858px;
+        top: 6706px;
     }
 }
